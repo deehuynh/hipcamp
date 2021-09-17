@@ -32,16 +32,61 @@ body {
     margin-top: 250px;
     color: white;
     text-align: center;
+    margin: {
+      left: 20px;
+      right: 20px;
+    };
 
     h1 {
       font-size: 81px;
       line-height: 88px;
       font-family: 'Archivo';
       font-weight: 900;
+      margin: 0;
     }
 
     p {
       line-height: 28px;
+      margin: {
+        bottom: 30px;
+        top: 59px;
+      };
+
+      @include media (550px) {
+        br {
+          display: none;
+        }
+      }
+    }
+
+    @include media (768px) {
+      h1 {
+        font-size: 55px;
+      }
+    }
+
+    @include media (425px) {
+      h1 {
+        font-size: 45px;
+        line-height: 49px;
+      }
+
+      p {
+        margin: {
+          top: 37px;
+          bottom: 20px;
+        };
+      }
+    }
+
+    @include media (350px) {
+      h1 {
+        font-size: 38px;
+      }
+
+      p {
+        font-size: 16px;
+      }
     }
   }
 
@@ -61,6 +106,19 @@ body {
   @include media (768px) {
     padding: {
       top: 40px;
+    }
+  }
+
+  @include media (425px) {
+    height: 761px;
+    border-radius: 0 0 100px 100px;
+
+    &__content {
+      margin-top: 117px;
+    }
+
+    &__btn {
+      width: 160px;
     }
   }
 }
