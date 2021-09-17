@@ -1,5 +1,112 @@
+@import url("normalize.css");
+/*  RESPONSIVE  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*  Variable  */
 body {
   background-color: white;
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Roboto", sans-serif;
+}
+
+.layout {
+  max-width: 1920px;
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  height: 1080px;
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 200px 200px;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+.header {
+  max-width: 1518px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__group-1, .header__group-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__group-1 {
+  width: 866px;
+}
+.header__group-2 {
+  width: 270px;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav a {
+  display: block;
+  user-select: none;
+  color: #D2D2D2;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.header__nav a:first-child {
+  margin-left: 0;
+}
+.header__nav a:hover:not(.active) {
+  color: white;
+}
+.header__nav a.active {
+  color: #ffffff;
+}
+.header__sign-up {
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+}
+.header__sign-up:hover {
+  opacity: 0.5;
+}
+.header__sign-in {
+  width: 130px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.header__sign-in:hover {
+  background-color: white;
+  color: #505050;
+  opacity: 0.5;
+}
+.header__logo {
+  user-select: none;
+}
+.header__logo:hover {
+  opacity: 0.6;
+}
+@media (max-width: 1558px) {
+  .header {
+    margin: 0 20px;
+  }
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  user-select: none;
 }
 
 /*# sourceMappingURL=index.css.map */

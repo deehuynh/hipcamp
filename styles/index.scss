@@ -1,3 +1,114 @@
+@import url("normalize.css");
+@import "mixin";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*  Variable  */ 
+$c-nav: #D2D2D2;
+$c-nav-active: #ffffff;
+
 body {
   background-color: white;
+  font-size: 18px;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+.layout {
+  @include frame(1920px, 0, center);
+}
+
+.hero {
+  height: 1080px;
+  @include hero-img("../images/hero.png");
+  border-radius: 0 0 200px 200px;
+  padding: {
+    top: 60px;
+  }
+  box-sizing: border-box;
+}
+
+.header {
+  @include frame(1518px, 50px, center);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__group-1, &__group-2 {
+    @include flex(0,space-between,center);
+  }
+
+  &__group-1 {
+    width: 866px;
+  }
+
+  &__group-2 {
+    width: 270px;
+  }
+
+  &__nav {
+    @include flex();
+    a {
+      display: block;
+      user-select: none;
+      color: $c-nav;
+      text-decoration: none;
+      margin-left: 40px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover:not(.active) {
+        color: white;
+      }
+    }
+
+    a.active {
+      color: $c-nav-active;
+    }
+  }
+
+  &__sign-up {
+    @include block(130px, 50px);
+    line-height: 50px;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  &__sign-in {
+    @include block(130px, 50px);
+    line-height: 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    &:hover {
+      background-color: white;
+      color: #505050;
+      opacity: .5;
+    }
+  }
+
+  &__logo {
+    user-select: none;
+    &:hover {
+      opacity: .6;
+    }
+  }
+
+  @include media (1558px) {
+    margin: 0 20px;
+  }
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  user-select: none;
 }
