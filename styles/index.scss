@@ -65,7 +65,21 @@ body {
     }
 
     a.active {
+      position: relative;
       color: $c-nav-active;
+      z-index: 0;
+
+      &::after {
+        position: absolute;
+        z-index: -1;
+        top: 7px;
+        left: 3px;
+        content: "";
+        width: 40px;
+        height: 3px;
+        background: #E76F51;
+        transform: rotate(45deg);
+      }
     }
   }
 
@@ -101,6 +115,25 @@ body {
 
   @include media (1558px) {
     margin: 0 20px;
+  }
+
+  @include media (1170px) {
+    &__group-1 {
+      width: 750px;
+    }
+    &__nav {
+      a {
+        margin-left: 25px;
+      }
+    }
+
+    &__group-2 {
+      width: 240px;
+    }
+
+    &__sign-up, &__sign-in {
+      width: 120px;
+    }
   }
 }
 

@@ -65,7 +65,20 @@ body {
   color: white;
 }
 .header__nav a.active {
+  position: relative;
   color: #ffffff;
+  z-index: 0;
+}
+.header__nav a.active::after {
+  position: absolute;
+  z-index: -1;
+  top: 7px;
+  left: 3px;
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #E76F51;
+  transform: rotate(45deg);
 }
 .header__sign-up {
   width: 130px;
@@ -97,6 +110,20 @@ body {
 @media (max-width: 1558px) {
   .header {
     margin: 0 20px;
+  }
+}
+@media (max-width: 1170px) {
+  .header__group-1 {
+    width: 750px;
+  }
+  .header__nav a {
+    margin-left: 25px;
+  }
+  .header__group-2 {
+    width: 240px;
+  }
+  .header__sign-up, .header__sign-in {
+    width: 120px;
   }
 }
 
