@@ -26,6 +26,43 @@ body {
     top: 60px;
   }
   box-sizing: border-box;
+  box-shadow: 5px 10px 30px rgba(0,0,0,.05);
+
+  &__content {
+    margin-top: 250px;
+    color: white;
+    text-align: center;
+
+    h1 {
+      font-size: 81px;
+      line-height: 88px;
+      font-family: 'Archivo';
+      font-weight: 900;
+    }
+
+    p {
+      line-height: 28px;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #E76F51;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  @include media (768px) {
+    padding: {
+      top: 40px;
+    }
+  }
 }
 
 .header {
@@ -113,6 +150,10 @@ body {
     }
   }
 
+  &__menu-btn {
+    display: none;
+  }
+
   @include media (1558px) {
     margin: 0 20px;
   }
@@ -133,6 +174,38 @@ body {
 
     &__sign-up, &__sign-in {
       width: 120px;
+    }
+  }
+
+  @include media (1024px) {
+    &__nav {
+      display: none;
+    }
+
+    &__group-2 {
+      width: auto;
+      align-items: normal;
+    }
+
+    &__menu-btn {
+      display: block;
+      margin-left: 40px;
+
+      &:hover {
+        opacity: .6;
+      }
+    }
+  }
+
+  @include media (500px) {
+    &__menu-btn {
+      margin-left: 20px;
+    }
+  }
+
+  @include media (425px) {
+    &__sign-up, &__sign-in {
+      display: none;
     }
   }
 }
