@@ -313,4 +313,81 @@ body {
       margin: 0 auto;
     }
   }
+
+  @include media (1558px) {
+    margin: {
+      left: 20px;
+      right: 20px;
+    }
+
+    &__item {
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @include media (1300px) {
+    &__item {
+      p {
+        max-width: 307px;
+        padding: 0 15px;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  @include media (1024px) {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item:nth-child(1), &__item:nth-child(2) {
+      margin-bottom: 20px;
+    }
+
+    &__item:nth-child(2), &__item:nth-child(4) {
+      margin-right: 0;
+    }
+  }
+
+  @include media (770px) {
+    &__item {
+      width: 300px;
+    }
+  }
+
+  @include media (675px) {
+    &__item {
+      width: 280px;
+    }
+  }
+
+  @include media (620px) {
+    &__item {
+      width: 260px;
+    }
+  }
+
+  @include media (575px) {
+    &__item {
+      width: 240px;
+    }
+  }
+
+  @include media (540px) {
+    &__item {
+      width: 220px;
+    }
+  }
+
+  @include media (500px) {
+    margin-top: -160px;
+    &__item {
+      width: 374px;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
 }
