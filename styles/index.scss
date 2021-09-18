@@ -8,7 +8,7 @@ $c-nav: #D2D2D2;
 $c-nav-active: #ffffff;
 
 body {
-  background-color: white;
+  background-color: #FAF4F2;
   font-size: 18px;
   -webkit-tap-highlight-color: transparent;
   font-family: 'Roboto', sans-serif;
@@ -279,7 +279,7 @@ body {
 
 .services {
   margin: {
-    top: -200px;
+    top: -108px;
   }
   @include frame(1518px, auto, center);
   @include flex(0,space-between,center);
@@ -291,15 +291,26 @@ body {
     border-radius: 20px;
     text-align: center;
 
+    img {
+      margin: {
+        top: 60px;
+      }
+    }
+
     h4 {
+      margin: {
+        top: 23px;
+        bottom: 12px;
+      }
       font-family: 'Archivo';
       font-weight: 900;
       font-size: 18px;
     }
 
     p {
-      @include frame(277px, auto, center);
+      @include frame(277px, auto);
       font-size: 16px;
+      margin: 0 auto;
     }
   }
 }
