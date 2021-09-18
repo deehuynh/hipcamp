@@ -278,5 +278,28 @@ body {
 }
 
 .services {
-  background: red;
+  margin: {
+    top: -200px;
+  }
+  @include frame(1518px, auto, center);
+  @include flex(0,space-between,center);
+  background-color: transparent;
+
+  &__item {
+    @include block(357px, 312px);
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+
+    h4 {
+      font-family: 'Archivo';
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    p {
+      @include frame(277px, auto, center);
+      font-size: 16px;
+    }
+  }
 }

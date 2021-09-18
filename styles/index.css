@@ -242,7 +242,34 @@ body {
 }
 
 .services {
-  background: red;
+  margin-top: -200px;
+  max-width: 1518px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+.services__item {
+  width: 357px;
+  height: 312px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.services__item h4 {
+  font-family: "Archivo";
+  font-weight: 900;
+  font-size: 18px;
+}
+.services__item p {
+  max-width: 277px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=index.css.map */
