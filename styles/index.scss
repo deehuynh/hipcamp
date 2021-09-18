@@ -284,6 +284,7 @@ body {
   @include frame(1518px, auto, center);
   @include flex(0,space-between,center);
   background-color: transparent;
+  color: #3B3735;
 
   &__item {
     @include block(357px, 312px);
@@ -389,5 +390,116 @@ body {
       margin-right: 0;
       margin-bottom: 20px;
     }
+  }
+}
+
+.content {
+  margin: {
+    top: 150px;
+  };
+  @include frame(1548px, auto, center);
+  text-align: center;
+  color: #3B3735;
+
+  h1 {
+    font-family: 'Archivo';
+    font-size: 40px;
+    line-height: 43px;
+    margin: {
+      top: 47px;
+      bottom: 74px;
+    }
+  }
+
+  &__container {
+    @include flex(0,center,0,wrap);
+  }
+
+  &__item {
+    @include frame(357px, auto);
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: {
+      left: 15px;
+      right: 15px;
+      bottom: 30px;
+    }
+
+    h4 {
+      font-family: 'Archivo';
+      font-size: 18px;
+      font-weight: 900;
+      margin: {
+        top: 46px;
+        bottom: 6px;
+      };
+
+      a {
+        text-decoration: none;
+        color: #3B3735;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      margin: {
+        top: 0;
+        bottom: 25px;
+      }
+    }
+  }
+
+  &__item-btn {
+    display: inline-block;
+    @include block(185px, 50px);
+    line-height: 50px;
+    border-radius: 25px;
+    color: #8D8D8D;
+    background-color: rgba(141,141,141, 0.1);
+    transition: .3s;
+
+    &:hover {
+      color: white;
+      background-color: #E76F51;
+    }
+  }
+
+  &__thumbnail {
+    @include frame(277px, 180px);
+    position: relative;
+
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3B3735;
+    opacity: .2;
+    border-radius: 20px;
+  }
+
+  &__price {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    @include block(145px, 50px);
+    line-height: 50px;
+    border-radius: 14px;
+    background-color: white;
+    font-weight: 500;
+    color: #E76F51;
   }
 }
