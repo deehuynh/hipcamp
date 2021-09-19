@@ -502,4 +502,11 @@ body {
     font-weight: 500;
     color: #E76F51;
   }
+
+  &__like {
+    position: absolute;
+    right: 20px;
+    top: 1px;
+    z-index: 1;
+  }
 }
