@@ -443,12 +443,16 @@ body {
 .content__like {
   position: absolute;
   right: 20px;
-  top: 1px;
+  top: 20px;
   z-index: 1;
-}
-.content__like:hover {
   cursor: pointer;
-  opacity: 0.5;
+  transition: 0.2s;
+}
+.content__like img {
+  border-radius: 0;
+}
+.content__like img:hover:not(img.content__like--active) {
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=index.css.map */

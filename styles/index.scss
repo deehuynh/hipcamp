@@ -506,12 +506,17 @@ body {
   &__like {
     position: absolute;
     right: 20px;
-    top: 1px;
+    top: 20px;
     z-index: 1;
+    cursor: pointer;
+    transition: .2s;
 
-    &:hover {
-      cursor: pointer;
-      opacity: .5;
+    img {
+      border-radius: 0;
+    }
+
+    img:hover:not(img.content__like--active) {
+      opacity: .7;
     }
   }
 }
