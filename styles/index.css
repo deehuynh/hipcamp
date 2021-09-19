@@ -446,5 +446,9 @@ body {
   top: 1px;
   z-index: 1;
 }
+.content__like:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
 
 /*# sourceMappingURL=index.css.map */
