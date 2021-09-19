@@ -454,5 +454,24 @@ body {
 .content__like img:hover:not(img.content__like--active) {
   opacity: 0.7;
 }
+.content__btn {
+  display: block;
+  margin: 0 auto;
+  width: 205px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #E76F51;
+  box-sizing: border-box;
+  color: #E76F51;
+  border-radius: 25px;
+  transition: 0.2s;
+  margin-top: 40px;
+}
+.content__btn:hover {
+  cursor: pointer;
+  background: #E76F51;
+  color: white;
+  opacity: 0.6;
+}
 
 /*# sourceMappingURL=index.css.map */

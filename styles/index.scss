@@ -519,4 +519,24 @@ body {
       opacity: .7;
     }
   }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    @include block(205px, 50px);
+    line-height: 50px;
+    border: 1px solid #E76F51;
+    box-sizing: border-box;
+    color: #E76F51;
+    border-radius: 25px;
+    transition: .2s;
+    margin-top: 40px;
+
+    &:hover {
+      cursor: pointer;
+      background: #E76F51;
+      color: white;
+      opacity: .6;
+    }
+  }
 }
