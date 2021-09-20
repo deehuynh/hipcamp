@@ -464,4 +464,12 @@ body {
   opacity: 0.6;
 }
 
+.subscribe {
+  margin-top: 150px;
+  max-width: 1518px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=index.css.map */
