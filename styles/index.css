@@ -511,8 +511,10 @@ body {
   background: transparent;
   text-indent: 15px;
 }
-.subscribe__input-group img {
+.subscribe__input-group span {
   width: 20%;
+  display: block;
+  background: #3B3735;
 }
 @media (max-width: 1558px) {
   .subscribe {
