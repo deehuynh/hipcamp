@@ -415,16 +415,6 @@ body {
   width: 100%;
   border-radius: 20px;
 }
-.content__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #3B3735;
-  opacity: 0.2;
-  border-radius: 20px;
-}
 .content__price {
   position: absolute;
   bottom: -25px;
