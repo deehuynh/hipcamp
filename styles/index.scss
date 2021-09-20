@@ -553,6 +553,12 @@ body {
     font-weight: 900;
   }
 
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
   @include media (1558px) {
     margin: {
       left: 20px;

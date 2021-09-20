@@ -476,6 +476,11 @@ body {
   font-size: 40px;
   font-weight: 900;
 }
+.subscribe p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
 @media (max-width: 1558px) {
   .subscribe {
     margin-left: 20px;
