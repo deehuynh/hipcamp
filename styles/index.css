@@ -471,5 +471,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 1558px) {
+  .subscribe {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

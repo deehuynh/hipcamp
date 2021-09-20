@@ -547,4 +547,10 @@ body {
     top: 150px;
   };
   @include frame(1518px, auto, center);
+  @include media (1558px) {
+    margin: {
+      left: 20px;
+      right: 20px;
+    };
+  }
 }
