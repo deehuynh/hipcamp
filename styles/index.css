@@ -476,11 +476,19 @@ body {
   font-family: "Archivo";
   font-size: 40px;
   font-weight: 900;
+  margin: 0;
 }
 .subscribe p {
+  margin-top: 15px;
+  margin-bottom: 30px;
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+}
+.subscribe__input-group {
+  width: 616px;
+  height: 80px;
+  display: flex;
 }
 @media (max-width: 1558px) {
   .subscribe {

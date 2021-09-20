@@ -552,12 +552,22 @@ body {
     font-family: 'Archivo';
     font-size: 40px;
     font-weight: 900;
+    margin: 0;
   }
 
   p {
+    margin: {
+      top: 15px;
+      bottom: 30px;
+    };
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+  }
+
+  &__input-group {
+    @include block(616px, 80px);
+    @include flex();
   }
 
   @include media (1558px) {
