@@ -585,17 +585,30 @@ body {
     background: white;
 
     input {
-      @include block(80%, 100%);
+      @include block(85%, 100%);
       outline: none;
       border: none;
       background: transparent;
       text-indent: 15px;
     }
 
-    span {
-      width: 20%;
-      display: block;
-      background: #3B3735;
+    div {
+      width: 15%;
+      @include flex(0,flex-end);
+
+      span {
+        display: block;
+        @include block(50px);
+        background-color: #E76F51;
+        border-radius: 20px;
+        @include flex(0,center,center);
+        cursor: pointer;
+        box-shadow: 5px 10px 30px rgba(231,111,81, 0.4);
+
+        &:hover {
+          opacity: .8;
+        }
+      }
     }
   }
 

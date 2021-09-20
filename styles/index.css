@@ -504,17 +504,32 @@ body {
   background: white;
 }
 .subscribe__input-group input {
-  width: 80%;
+  width: 85%;
   height: 100%;
   outline: none;
   border: none;
   background: transparent;
   text-indent: 15px;
 }
-.subscribe__input-group span {
-  width: 20%;
+.subscribe__input-group div {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+}
+.subscribe__input-group div span {
   display: block;
-  background: #3B3735;
+  width: 50px;
+  height: 50px;
+  background-color: #E76F51;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 10px 30px rgba(231, 111, 81, 0.4);
+}
+.subscribe__input-group div span:hover {
+  opacity: 0.8;
 }
 @media (max-width: 1558px) {
   .subscribe {
