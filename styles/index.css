@@ -473,6 +473,7 @@ body {
   display: flex;
   background: #F8E1DB;
   border-radius: 20px;
+  color: #3B3735;
 }
 .subscribe h1 {
   font-family: "Archivo";
@@ -486,6 +487,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+}
+.subscribe__col-1 {
+  margin-left: 100px;
+  margin-top: 90px;
 }
 .subscribe__input-group {
   width: 616px;
