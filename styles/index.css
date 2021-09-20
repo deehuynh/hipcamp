@@ -471,6 +471,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.subscribe h1 {
+  font-family: "Archivo";
+  font-size: 40px;
+  font-weight: 900;
+}
 @media (max-width: 1558px) {
   .subscribe {
     margin-left: 20px;

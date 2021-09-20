@@ -547,6 +547,12 @@ body {
     top: 150px;
   };
   @include frame(1518px, auto, center);
+  h1 {
+    font-family: 'Archivo';
+    font-size: 40px;
+    font-weight: 900;
+  }
+
   @include media (1558px) {
     margin: {
       left: 20px;
