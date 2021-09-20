@@ -489,6 +489,16 @@ body {
   width: 616px;
   height: 80px;
   display: flex;
+  background: red;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.subscribe__input-group input {
+  width: 80%;
+  height: 100%;
+}
+.subscribe__input-group img {
+  width: 20%;
 }
 @media (max-width: 1558px) {
   .subscribe {

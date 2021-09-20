@@ -568,6 +568,17 @@ body {
   &__input-group {
     @include block(616px, 80px);
     @include flex();
+    background: red;
+    padding: 15px;
+    box-sizing: border-box;
+
+    input {
+      @include block(80%, 100%);
+    }
+
+    img {
+      width: 20%;
+    }
   }
 
   @include media (1558px) {
