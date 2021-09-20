@@ -571,9 +571,15 @@ body {
     background: red;
     padding: 15px;
     box-sizing: border-box;
+    border-radius: 20px;
+    background: white;
 
     input {
       @include block(80%, 100%);
+      outline: none;
+      border: none;
+      background: transparent;
+      text-indent: 15px;
     }
 
     img {

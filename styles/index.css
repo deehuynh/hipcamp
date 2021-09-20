@@ -492,10 +492,16 @@ body {
   background: red;
   padding: 15px;
   box-sizing: border-box;
+  border-radius: 20px;
+  background: white;
 }
 .subscribe__input-group input {
   width: 80%;
   height: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  text-indent: 15px;
 }
 .subscribe__input-group img {
   width: 20%;
