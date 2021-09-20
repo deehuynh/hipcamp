@@ -548,6 +548,9 @@ body {
   };
   @include frame(1518px, auto, center);
   @include flex();
+  background: #F8E1DB;
+  border-radius: 20px;
+
   h1 {
     font-family: 'Archivo';
     font-size: 40px;
