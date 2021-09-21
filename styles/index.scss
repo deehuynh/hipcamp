@@ -708,4 +708,21 @@ body {
     width: 744px;
     @include flex(0, space-between);
   }
+
+  &__row-2 {
+    margin-top: 10px;
+
+    a:first-child {
+      margin-right: 10px;
+    }
+
+    img:hover {
+      opacity: .6;
+    }
+  }
+
+  &__row-3 {
+    margin-top: 60px;
+    text-align: center;
+  }
 }
