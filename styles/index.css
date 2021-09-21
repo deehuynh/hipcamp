@@ -634,8 +634,9 @@ body {
 
 .decoration-right {
   position: absolute;
-  top: 500px;
+  top: 1025px;
   right: 0;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=index.css.map */
