@@ -551,6 +551,8 @@ body {
   background: #F8E1DB;
   border-radius: 20px;
   color: #3B3735;
+  position: relative;
+  z-index: 0;
 
   h1 {
     font-family: 'Archivo';
@@ -587,6 +589,13 @@ body {
   &__mail-i {
     margin-left: 15px;
     @include block(24.24px, 17.75px);
+  }
+
+  &__decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 
   &__input-group {
