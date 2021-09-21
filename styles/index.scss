@@ -546,6 +546,7 @@ body {
   margin: {
     top: 150px;
   };
+  overflow: hidden;
   @include frame(1518px, auto, center);
   @include flex(0,space-between);
   background: #F8E1DB;
@@ -574,7 +575,7 @@ body {
   &__col-1 {
     margin-left: 100px;
     margin-top: 90px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 
   &__col-2 {

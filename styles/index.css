@@ -466,6 +466,7 @@ body {
 
 .subscribe {
   margin-top: 150px;
+  overflow: hidden;
   max-width: 1518px;
   height: auto;
   margin-left: auto;
@@ -494,7 +495,7 @@ body {
 .subscribe__col-1 {
   margin-left: 100px;
   margin-top: 90px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 .subscribe__col-2 {
   margin-top: 20px;
