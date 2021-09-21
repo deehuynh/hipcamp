@@ -15,7 +15,9 @@ body {
 }
 
 .layout {
-  @include frame(1920px, 0, center);
+  @include frame(1920px, auto, center);
+  position: relative;
+  overflow: hidden;
 }
 
 .hero {
@@ -731,6 +733,6 @@ body {
 .decoration-right {
   position: absolute;
   top: 1025px;
-  right: 0;
+  right: -338px;
   z-index: -1;
 }

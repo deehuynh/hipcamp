@@ -12,9 +12,11 @@ body {
 
 .layout {
   max-width: 1920px;
-  height: 0;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero {
@@ -635,7 +637,7 @@ body {
 .decoration-right {
   position: absolute;
   top: 1025px;
-  right: 0;
+  right: -338px;
   z-index: -1;
 }
 
