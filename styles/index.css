@@ -471,6 +471,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  justify-content: space-between;
   background: #F8E1DB;
   border-radius: 20px;
   color: #3B3735;
@@ -493,10 +494,23 @@ body {
   margin-top: 90px;
   margin-bottom: 80px;
 }
+.subscribe__col-2 {
+  margin-top: 20px;
+  margin-right: 100px;
+}
+.subscribe__col-2 img {
+  max-width: 100%;
+}
+.subscribe__mail-i {
+  margin-left: 15px;
+  width: 24.24px;
+  height: 17.75px;
+}
 .subscribe__input-group {
   width: 616px;
   height: 80px;
   display: flex;
+  align-items: center;
   background: red;
   padding: 15px;
   box-sizing: border-box;
@@ -509,7 +523,12 @@ body {
   outline: none;
   border: none;
   background: transparent;
-  text-indent: 15px;
+  text-indent: 10px;
+  font-size: 14px;
+  color: #8D8D8D;
+}
+.subscribe__input-group input::placeholder {
+  opacity: 1;
 }
 .subscribe__input-group div {
   width: 15%;

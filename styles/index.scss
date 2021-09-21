@@ -547,7 +547,7 @@ body {
     top: 150px;
   };
   @include frame(1518px, auto, center);
-  @include flex();
+  @include flex(0,space-between);
   background: #F8E1DB;
   border-radius: 20px;
   color: #3B3735;
@@ -575,9 +575,23 @@ body {
     margin-bottom: 80px;
   }
 
+  &__col-2 {
+    margin-top: 20px;
+    margin-right: 100px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__mail-i {
+    margin-left: 15px;
+    @include block(24.24px, 17.75px);
+  }
+
   &__input-group {
     @include block(616px, 80px);
-    @include flex();
+    @include flex(0,0,center);
     background: red;
     padding: 15px;
     box-sizing: border-box;
@@ -589,7 +603,13 @@ body {
       outline: none;
       border: none;
       background: transparent;
-      text-indent: 15px;
+      text-indent: 10px;
+      font-size: 14px;
+      color: #8D8D8D;
+
+      &::placeholder {
+        opacity: 1;
+      }
     }
 
     div {
