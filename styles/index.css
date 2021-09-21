@@ -632,4 +632,10 @@ body {
   font-size: 16px;
 }
 
+.decoration-right {
+  position: absolute;
+  top: 500px;
+  right: 0;
+}
+
 /*# sourceMappingURL=index.css.map */
