@@ -607,6 +607,7 @@ body {
     box-sizing: border-box;
     border-radius: 20px;
     background: white;
+    box-shadow: 5px 10px 30px rgba(59,55,53, 0.05);
 
     input {
       @include block(85%, 100%);
@@ -647,5 +648,16 @@ body {
       left: 20px;
       right: 20px;
     };
+  }
+}
+
+.footer {
+  margin-top: 180px;
+  height: 527px;
+  background-color: #F8E1DB;
+  border-radius: 200px 200px 0 0;
+
+  &__container {
+    @include frame(1518px,auto,center);
   }
 }
