@@ -573,6 +573,8 @@ body {
   background-color: #F8E1DB;
   border-radius: 200px 200px 0 0;
   color: #3B3735;
+  padding-top: 105px;
+  box-sizing: border-box;
 }
 .footer h4 {
   font-family: "Archivo";
@@ -593,6 +595,7 @@ body {
 }
 .footer__row-1 {
   display: flex;
+  justify-content: space-between;
 }
 .footer__row-1 span {
   display: block;
@@ -605,6 +608,14 @@ body {
 }
 .footer__row-1 span a:hover {
   font-weight: 500;
+}
+.footer__col {
+  width: 744px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__col div {
+  width: 228px;
 }
 
 /*# sourceMappingURL=index.css.map */

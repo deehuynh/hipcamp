@@ -657,6 +657,10 @@ body {
   background-color: #F8E1DB;
   border-radius: 200px 200px 0 0;
   color: #3B3735;
+  padding: {
+    top: 105px;
+  }
+  box-sizing: border-box;
 
   h4 {
     font-family: 'Archivo';
@@ -678,7 +682,7 @@ body {
   }
 
   &__row-1 {
-    @include flex();
+    @include flex(0,space-between);
 
     span {
       display: block;
@@ -694,5 +698,14 @@ body {
         }
       }
     }
+  }
+
+  &__col {
+
+    div {
+      width: 228px;
+    }
+    width: 744px;
+    @include flex(0, space-between);
   }
 }
