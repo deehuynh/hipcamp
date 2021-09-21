@@ -9,7 +9,7 @@ The project is processing
 ## Skills
 
 * Convert Adobe XD to HTML
-* Responsive
+* Responsive (width screen size from 1920px to 320px)
 
 ## Adobe XD Web UI Design
 
