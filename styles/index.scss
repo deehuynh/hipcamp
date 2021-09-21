@@ -660,4 +660,12 @@ body {
   &__container {
     @include frame(1518px,auto,center);
   }
+
+  &__row-1 {
+    @include flex();
+
+    span {
+      display: block;
+    }
+  }
 }

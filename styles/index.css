@@ -579,5 +579,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.footer__row-1 {
+  display: flex;
+}
+.footer__row-1 span {
+  display: block;
+}
 
 /*# sourceMappingURL=index.css.map */
