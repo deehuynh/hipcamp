@@ -656,6 +656,22 @@ body {
   height: 527px;
   background-color: #F8E1DB;
   border-radius: 200px 200px 0 0;
+  color: #3B3735;
+
+  h4 {
+    font-family: 'Archivo';
+    font-size: 18px;
+    font-weight: 900;
+    margin: {
+      top: 0;
+      bottom: 22px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+  }
 
   &__container {
     @include frame(1518px,auto,center);
@@ -666,6 +682,17 @@ body {
 
     span {
       display: block;
+
+      a {
+        text-decoration: none;
+        color: #3B3735;
+        font-size: 16px;
+        line-height: 28px;
+
+        &:hover {
+          font-weight: 500;
+        }
+      }
     }
   }
 }

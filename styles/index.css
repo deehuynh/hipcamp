@@ -572,6 +572,18 @@ body {
   height: 527px;
   background-color: #F8E1DB;
   border-radius: 200px 200px 0 0;
+  color: #3B3735;
+}
+.footer h4 {
+  font-family: "Archivo";
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+.footer p {
+  font-size: 16px;
+  line-height: 28px;
 }
 .footer__container {
   max-width: 1518px;
@@ -584,6 +596,15 @@ body {
 }
 .footer__row-1 span {
   display: block;
+}
+.footer__row-1 span a {
+  text-decoration: none;
+  color: #3B3735;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer__row-1 span a:hover {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=index.css.map */
