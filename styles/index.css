@@ -188,11 +188,6 @@ body {
 .header__menu-btn {
   display: none;
 }
-@media (max-width: 1558px) {
-  .header {
-    margin: 0 20px;
-  }
-}
 @media (max-width: 1170px) {
   .header__group-1 {
     width: 750px;
@@ -663,6 +658,10 @@ body {
   }
 
   .header {
+    max-width: 1418px;
+  }
+
+  .services {
     max-width: 1418px;
   }
 }

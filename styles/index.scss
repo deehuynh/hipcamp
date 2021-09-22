@@ -214,10 +214,6 @@ body {
     display: none;
   }
 
-  @include media (1558px) {
-    margin: 0 20px;
-  }
-
   @include media (1170px) {
     &__group-1 {
       width: 750px;
@@ -763,6 +759,10 @@ body {
   }
 
   .header {
+    max-width: 1418px;
+  }
+
+  .services {
     max-width: 1418px;
   }
 }
