@@ -536,6 +536,11 @@ body {
   color: #3B3735;
   position: relative;
   z-index: 0;
+  padding: {
+    left: 100px;
+    right: 100px;
+  }
+  box-sizing: border-box;
 
   h1 {
     font-family: 'Archivo';
@@ -555,14 +560,12 @@ body {
   }
 
   &__col-1 {
-    margin-left: 100px;
     margin-top: 90px;
     margin-bottom: 70px;
   }
 
   &__col-2 {
     margin-top: 20px;
-    margin-right: 100px;
 
     img {
       max-width: 100%;
@@ -623,13 +626,6 @@ body {
         }
       }
     }
-  }
-
-  @include media (1558px) {
-    margin: {
-      left: 20px;
-      right: 20px;
-    };
   }
 }
 
@@ -803,6 +799,15 @@ body {
 
   .subscribe {
     max-width: 1418px;
+
+    padding: {
+      left: 70px;
+      right: 70px;
+    }
+
+    &__decoration {
+      left: -50px;
+    }
   }
 }
 
