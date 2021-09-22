@@ -345,8 +345,12 @@ body {
   margin-bottom: 74px;
 }
 .content__container {
+  max-width: 1518px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .content__item {
@@ -356,8 +360,6 @@ body {
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
-  margin-left: 15px;
-  margin-right: 15px;
   margin-bottom: 30px;
 }
 .content__item h4 {
@@ -664,6 +666,17 @@ body {
   }
   .services__item p {
     font-size: 15px;
+  }
+
+  .content {
+    margin-top: 140px;
+  }
+  .content__container {
+    max-width: 1418px;
+  }
+  .content__item {
+    width: 337px;
+    height: auto;
   }
 }
 

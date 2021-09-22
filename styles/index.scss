@@ -395,7 +395,8 @@ body {
   }
 
   &__container {
-    @include flex(0,center,0,wrap);
+    @include frame(1518px, auto, center);
+    @include flex(0,space-between,0,wrap);
   }
 
   &__item {
@@ -405,8 +406,6 @@ body {
     padding: 40px;
     box-sizing: border-box;
     margin: {
-      left: 15px;
-      right: 15px;
       bottom: 30px;
     }
 
@@ -763,6 +762,18 @@ body {
       p {
         font-size: 15px;
       }
+    }
+  }
+
+  .content {
+    margin-top: 140px;
+
+    &__container {
+      max-width: 1418px;
+    }
+
+    &__item {
+      @include block(337px, auto);
     }
   }
 }
