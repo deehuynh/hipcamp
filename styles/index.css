@@ -742,6 +742,10 @@ body {
   }
   .hero__content h1 {
     font-size: 65px;
+    line-height: 75px;
+  }
+  .hero__content p {
+    font-size: 14px;
   }
 
   .header {
