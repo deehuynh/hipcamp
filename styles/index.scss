@@ -766,7 +766,13 @@ body {
   }
 
   .content {
-    margin-top: 140px;
+    margin-top: 130px;
+
+    h1 {
+      font-size: 38px;
+      margin-top: 40px;
+      margin-bottom: 70px;
+    }
 
     &__container {
       max-width: 1418px;
@@ -793,6 +799,10 @@ body {
         font-size: 17px;
       }
     }
+  }
+
+  .subscribe {
+    max-width: 1418px;
   }
 }
 
