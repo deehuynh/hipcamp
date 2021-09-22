@@ -674,9 +674,22 @@ body {
   .content__container {
     max-width: 1418px;
   }
+  .content__price {
+    font-size: 16px;
+  }
   .content__item {
     width: 337px;
     height: auto;
+    padding: 36px;
+  }
+  .content__item h4 {
+    font-size: 17px;
+  }
+  .content__item p {
+    font-size: 15px;
+  }
+  .content__item-btn {
+    font-size: 17px;
   }
 }
 

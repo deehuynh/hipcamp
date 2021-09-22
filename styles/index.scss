@@ -772,8 +772,26 @@ body {
       max-width: 1418px;
     }
 
+    &__price {
+      font-size: 16px;
+    }
+
     &__item {
       @include block(337px, auto);
+
+      padding: 36px;
+
+      h4 {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      &-btn {
+        font-size: 17px;
+      }
     }
   }
 }
