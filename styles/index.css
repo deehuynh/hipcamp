@@ -740,6 +740,9 @@ body {
     padding-top: 50px;
     height: 900px;
   }
+  .hero__content h1 {
+    font-size: 65px;
+  }
 
   .header {
     max-width: 1218px;

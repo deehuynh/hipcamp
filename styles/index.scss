@@ -858,6 +858,12 @@ body {
   .hero {
     padding-top: 50px;
     height: 900px;
+
+    &__content {
+      h1 {
+        font-size: 65px;
+      }
+    }
   }
 
   .header {
