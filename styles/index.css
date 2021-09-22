@@ -664,6 +664,12 @@ body {
   .services {
     max-width: 1418px;
   }
+  .services__item h4 {
+    font-size: 17px;
+  }
+  .services__item p {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

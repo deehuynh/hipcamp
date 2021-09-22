@@ -764,6 +764,16 @@ body {
 
   .services {
     max-width: 1418px;
+
+    &__item {
+      h4 {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
   }
 }
 
