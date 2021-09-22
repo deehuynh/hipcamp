@@ -798,6 +798,7 @@ body {
   }
 
   .subscribe {
+    margin-top: 130px;
     max-width: 1418px;
 
     padding: {
@@ -807,6 +808,15 @@ body {
 
     &__decoration {
       left: -50px;
+    }
+  }
+
+  .footer {
+    margin-top: 150px;
+    border-radius: 180px 180px 0 0;
+
+    &__container {
+      max-width: 1418px;
     }
   }
 }
