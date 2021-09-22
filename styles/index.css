@@ -641,4 +641,30 @@ body {
   z-index: -1;
 }
 
+@media (max-width: 1680px) {
+  .layout {
+    font-size: 17px;
+  }
+
+  .hero {
+    height: 1000px;
+  }
+  .hero__content {
+    margin-top: 200px;
+  }
+  .hero__content h1 {
+    font-size: 75px;
+  }
+  .hero__content p {
+    margin-top: 50px;
+  }
+  .hero__btn {
+    font-size: 17px;
+  }
+
+  .header {
+    max-width: 1418px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */

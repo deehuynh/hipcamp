@@ -738,7 +738,33 @@ body {
 }
 
 @include media (1680px) {
+  .layout {
+    font-size: 17px;
+  }
 
+  .hero {
+    height: 1000px;
+
+    &__content {
+      margin-top: 200px;
+
+      h1 {
+        font-size: 75px;
+      }
+
+      p {
+        margin-top: 50px;
+      }
+    }
+
+    &__btn {
+      font-size: 17px;
+    }
+  }
+
+  .header {
+    max-width: 1418px;
+  }
 }
 
 @include media (1536px) {
