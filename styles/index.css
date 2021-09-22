@@ -645,6 +645,12 @@ body {
   .header {
     max-width: 1418px;
   }
+  .header__group-1 {
+    width: 840px;
+  }
+  .header__sign-up, .header__sign-in {
+    font-size: 17px;
+  }
 
   .services {
     max-width: 1418px;
@@ -722,6 +728,29 @@ body {
   }
   .footer__row-3 {
     margin-top: 50px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 1550px) {
+  .layout {
+    font-size: 15px;
+  }
+
+  .hero {
+    padding-top: 50px;
+  }
+
+  .header {
+    max-width: 1218px;
+  }
+  .header__group-1 {
+    width: 780px;
+  }
+  .header__group-1 img {
+    width: 45px;
+    height: 45px;
+  }
+  .header__sign-up, .header__sign-in {
     font-size: 15px;
   }
 }

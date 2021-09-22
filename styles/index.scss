@@ -740,6 +740,14 @@ body {
 
   .header {
     max-width: 1418px;
+
+    &__group-1 {
+      width: 840px;
+    }
+
+    &__sign-up, &__sign-in {
+      font-size: 17px;
+    }
   }
 
   .services {
@@ -843,5 +851,27 @@ body {
 
 // 1536px
 @include media (1550px) {
-  
+  .layout {
+    font-size: 15px;
+  }
+
+  .hero {
+    padding-top: 50px;
+  }
+
+  .header {
+    max-width: 1218px;
+
+    &__group-1 {
+      width: 780px;
+
+      img {
+        @include block(45px);
+      }
+    }
+
+    &__sign-up, &__sign-in {
+      font-size: 15px;
+    }
+  }
 }
