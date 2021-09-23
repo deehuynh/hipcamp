@@ -495,7 +495,7 @@ body {
     transition: .2s;
 
     img {
-      border-radius: 0;
+      border-radius: 0!important;
     }
 
     img:hover:not(img.content__like--active) {
@@ -940,11 +940,34 @@ body {
       max-width: 1218px;
     }
 
+    &__btn {
+      @include block(170px, 42px);
+      line-height: 42px;
+      font-size: 15px;
+    }
+
+    &__price {
+      @include block(115px, 45px);
+      line-height: 45px;
+      font-size: 14px;
+      bottom: -19px;
+    }
+
+    &__like {
+      top: 15px;
+      right: 15px;
+
+      img {
+        @include block(32px);
+      }
+    }
+
     &__item {
-      width: 285px;
-      padding: 28px;
+      width: 286px;
+      padding: 32px;
 
       h4 {
+        margin-top: 35px;
         font-size: 15px;
       }
 
@@ -955,9 +978,9 @@ body {
       }
 
       &-btn {
-        @include block(150px, 42px);
-        line-height: 42px;
-        font-size: 15px;
+        @include block(150px, 40px);
+        line-height: 40px;
+        font-size: 14px;
       }
     }
 
