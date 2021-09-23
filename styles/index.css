@@ -816,6 +816,17 @@ body {
   .content__item h4 {
     font-size: 15px;
   }
+  .content__item p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 22px;
+  }
+  .content__item-btn {
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 15px;
+  }
   .content__thumbnail {
     height: auto;
   }
