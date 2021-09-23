@@ -794,6 +794,7 @@ body {
     font-size: 15px;
   }
   .services__item p {
+    max-width: 225px;
     font-size: 13px;
   }
 }
