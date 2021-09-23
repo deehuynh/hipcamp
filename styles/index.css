@@ -802,6 +802,11 @@ body {
     max-width: 225px;
     font-size: 13px;
   }
+
+  .content__icon {
+    width: 69.23px;
+    height: 69.31px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

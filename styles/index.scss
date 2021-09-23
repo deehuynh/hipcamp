@@ -932,4 +932,10 @@ body {
       }
     }
   }
+
+  .content {
+    &__icon {
+      @include block(69.23px, 69.31px);
+    }
+  }
 }
