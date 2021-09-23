@@ -787,10 +787,15 @@ body {
     max-width: 1218px;
   }
   .services__item {
-    width: 290px;
-    height: 270px;
+    width: 285px;
+    height: 250px;
+  }
+  .services__item img {
+    margin-top: 45px;
+    transform: scale(0.8);
   }
   .services__item h4 {
+    margin-top: 15px;
     font-size: 15px;
   }
   .services__item p {
