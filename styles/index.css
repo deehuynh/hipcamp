@@ -739,13 +739,25 @@ body {
   .hero {
     padding-top: 50px;
     height: 900px;
+    border-radius: 0 0 120px 120px;
+  }
+  .hero__btn {
+    width: 170px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+  }
+  .hero__content {
+    margin-top: 190px;
   }
   .hero__content h1 {
     font-size: 65px;
     line-height: 75px;
   }
   .hero__content p {
-    font-size: 14px;
+    font-size: 15px;
+    margin-top: 35px;
+    margin-bottom: 25px;
   }
 
   .header {
@@ -769,6 +781,10 @@ body {
     width: 120px;
     height: 45px;
     line-height: 45px;
+  }
+
+  .services {
+    max-width: 1218px;
   }
 }
 

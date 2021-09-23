@@ -858,15 +858,26 @@ body {
   .hero {
     padding-top: 50px;
     height: 900px;
+    border-radius: 0 0 120px 120px;
+
+    &__btn {
+      width: 170px;
+      height: 45px;
+      line-height: 45px;
+      font-size: 15px;
+    }
 
     &__content {
+      margin-top: 190px;
       h1 {
         font-size: 65px;
         line-height: 75px;
       }
 
       p {
-        font-size: 14px;
+        font-size: 15px;
+        margin-top: 35px;
+        margin-bottom: 25px;
       }
     }
   }
@@ -897,5 +908,9 @@ body {
       @include block(120px, 45px);
       line-height: 45px;
     }
+  }
+
+  .services {
+    max-width: 1218px;
   }
 }
