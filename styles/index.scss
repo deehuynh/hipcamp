@@ -943,6 +943,10 @@ body {
     &__item {
       width: 285px;
       padding: 28px;
+
+      h4 {
+        font-size: 15px;
+      }
     }
 
     &__thumbnail {
