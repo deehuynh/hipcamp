@@ -786,6 +786,10 @@ body {
   .services {
     max-width: 1218px;
   }
+  .services__item {
+    width: 305px;
+    height: 260px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

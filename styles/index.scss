@@ -912,5 +912,9 @@ body {
 
   .services {
     max-width: 1218px;
+
+    &__item {
+      @include block(305px, 260px);
+    }
   }
 }
