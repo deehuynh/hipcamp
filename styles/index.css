@@ -806,6 +806,12 @@ body {
   .content {
     margin-top: 120px;
   }
+  .content__container {
+    max-width: 1218px;
+  }
+  .content__item {
+    width: 300px;
+  }
   .content__icon {
     width: 69.23px;
     height: 69.31px;
