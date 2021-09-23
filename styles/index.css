@@ -813,6 +813,12 @@ body {
     width: 285px;
     padding: 28px;
   }
+  .content__thumbnail {
+    height: auto;
+  }
+  .content__thumbnail img {
+    border-radius: 15px;
+  }
   .content__icon {
     width: 69.23px;
     height: 69.31px;

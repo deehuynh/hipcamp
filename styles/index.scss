@@ -945,6 +945,13 @@ body {
       padding: 28px;
     }
 
+    &__thumbnail {
+      height: auto;
+      img {
+        border-radius: 15px;
+      }
+    }
+
     &__icon {
       @include block(69.23px, 69.31px);
     }
