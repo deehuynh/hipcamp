@@ -914,7 +914,15 @@ body {
     max-width: 1218px;
 
     &__item {
-      @include block(305px, 260px);
+      @include block(290px, 270px);
+
+      h4 {
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 13px;
+      }
     }
   }
 }

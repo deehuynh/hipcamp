@@ -787,8 +787,14 @@ body {
     max-width: 1218px;
   }
   .services__item {
-    width: 305px;
-    height: 260px;
+    width: 290px;
+    height: 270px;
+  }
+  .services__item h4 {
+    font-size: 15px;
+  }
+  .services__item p {
+    font-size: 13px;
   }
 }
 
