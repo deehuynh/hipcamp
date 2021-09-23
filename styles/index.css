@@ -739,7 +739,7 @@ body {
   .hero {
     padding-top: 50px;
     height: 900px;
-    border-radius: 0 0 120px 120px;
+    border-radius: 0 0 150px 150px;
   }
   .hero__btn {
     width: 170px;
@@ -784,6 +784,7 @@ body {
   }
 
   .services {
+    margin-top: -90px;
     max-width: 1218px;
   }
   .services__item {
