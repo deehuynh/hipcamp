@@ -870,11 +870,17 @@ body {
   .subscribe {
     margin-top: 120px;
     max-width: 1218px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .subscribe h1 {
+    font-size: 30px;
+  }
+  .subscribe p {
+    font-size: 13px;
   }
   .subscribe__decoration {
-    left: -50px;
+    left: -150px;
   }
 }
 

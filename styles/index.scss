@@ -1009,12 +1009,20 @@ body {
     max-width: 1218px;
 
     padding: {
-      left: 70px;
-      right: 70px;
+      left: 85px;
+      right: 85px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 13px;
     }
 
     &__decoration {
-      left: -50px;
+      left: -150px;
     }
   }
 }
