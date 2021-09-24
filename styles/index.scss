@@ -1123,3 +1123,9 @@ body {
     right: -500px;
   }
 }
+
+@include media(1400px) {
+  .header {
+    max-width: 1100px;
+  }
+}

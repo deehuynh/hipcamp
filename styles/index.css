@@ -961,5 +961,10 @@ body {
     right: -500px;
   }
 }
+@media (max-width: 1400px) {
+  .header {
+    max-width: 1100px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
