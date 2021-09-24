@@ -1051,6 +1051,15 @@ body {
         font-size: 12px;
         text-indent: 6px;
       }
+
+      div span {
+        @include block(40px);
+        border-radius: 15px;
+
+        img {
+          width: 50%;
+        }
+      }
     }
 
     &__decoration {

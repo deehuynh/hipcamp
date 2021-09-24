@@ -904,6 +904,14 @@ body {
     font-size: 12px;
     text-indent: 6px;
   }
+  .subscribe__input-group div span {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+  }
+  .subscribe__input-group div span img {
+    width: 50%;
+  }
   .subscribe__decoration {
     max-width: 100%;
     left: 0;
