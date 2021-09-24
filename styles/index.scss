@@ -1130,15 +1130,15 @@ body {
   }
 
   .hero {
-    padding-top: 50px;
-    height: 900px;
+    padding-top: 40px;
+    height: 830px;
     border-radius: 0 0 150px 150px;
 
     &__btn {
-      width: 170px;
-      height: 45px;
-      line-height: 45px;
-      font-size: 15px;
+      width: 160px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 13px;
     }
 
     &__content {
@@ -1161,15 +1161,15 @@ body {
 
     &__nav {
       a {
-        margin-left: 30px;
+        margin-left: 27px;
       }
     }
 
     &__group-1 {
-      width: 705px;
+      width: 615px;
 
       img {
-        @include block(45px);
+        @include block(40px);
       }
     }
 
