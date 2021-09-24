@@ -1073,7 +1073,7 @@ body {
     margin-top: 140px;
     border-radius: 160px 160px 0 0;
     padding-top: 85px;
-    height: 430px;
+    height: 420px;
 
     &__col {
       width: 595px;
@@ -1100,11 +1100,21 @@ body {
 
     &__row-2 {
       margin-top: 5px;
+
+      a:first-child {
+        margin-right: 8px;
+      }
     }
 
     &__row-3 {
       margin-top: 45px;
       font-size: 13px;
+    }
+
+    &__download {
+      img {
+        width: 120px;
+      }
     }
   }
 }
