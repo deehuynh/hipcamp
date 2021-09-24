@@ -955,6 +955,11 @@ body {
   .footer__download img {
     width: 120px;
   }
+
+  .decoration-right {
+    top: 700px;
+    right: -500px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
