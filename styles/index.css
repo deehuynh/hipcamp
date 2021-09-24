@@ -924,17 +924,26 @@ body {
     padding-top: 85px;
     height: 400px;
   }
+  .footer__col {
+    width: 600px;
+  }
   .footer__container {
     max-width: 1218px;
   }
   .footer h4 {
     font-size: 15px;
+    margin-bottom: 17px;
   }
   .footer p {
     font-size: 13px;
+    line-height: 24px;
   }
   .footer__row-1 span a {
     font-size: 13px;
+    line-height: 24px;
+  }
+  .footer__row-2 {
+    margin-top: 5px;
   }
   .footer__row-3 {
     margin-top: 50px;

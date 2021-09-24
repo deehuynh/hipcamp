@@ -1075,20 +1075,31 @@ body {
     padding-top: 85px;
     height: 400px;
 
+    &__col {
+      width: 600px;
+    }
+
     &__container {
       max-width: 1218px;
     }
 
     h4 {
       font-size: 15px;
+      margin-bottom: 17px;
     }
 
     p {
       font-size: 13px;
+      line-height: 24px;
     }
 
     &__row-1 span a {
       font-size: 13px;
+      line-height: 24px;
+    }
+
+    &__row-2 {
+      margin-top: 5px;
     }
 
     &__row-3 {
