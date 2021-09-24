@@ -815,6 +815,7 @@ body {
     height: 42px;
     line-height: 42px;
     font-size: 15px;
+    margin-top: 25px;
   }
   .content__price {
     width: 115px;
@@ -864,6 +865,16 @@ body {
     margin-top: 35px;
     font-size: 30px;
     line-height: 35px;
+  }
+
+  .subscribe {
+    margin-top: 120px;
+    max-width: 1218px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .subscribe__decoration {
+    left: -50px;
   }
 }
 

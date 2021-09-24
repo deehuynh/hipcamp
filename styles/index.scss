@@ -945,6 +945,7 @@ body {
       @include block(170px, 42px);
       line-height: 42px;
       font-size: 15px;
+      margin-top: 25px;
     }
 
     &__price {
@@ -1000,6 +1001,20 @@ body {
       margin-top: 35px;
       font-size: 30px;
       line-height: 35px;
+    }
+  }
+
+  .subscribe {
+    margin-top: 120px;
+    max-width: 1218px;
+
+    padding: {
+      left: 70px;
+      right: 70px;
+    }
+
+    &__decoration {
+      left: -50px;
     }
   }
 }
