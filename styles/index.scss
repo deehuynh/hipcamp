@@ -1019,6 +1019,22 @@ body {
 
     p {
       font-size: 13px;
+      margin: {
+        top: 10px;
+        bottom: 22px;
+      };
+    }
+
+    &__col-1 {
+      margin-top: 70px;
+      margin-bottom: 52px;
+    }
+
+    &__col-2 {
+      text-align: right;
+      img {
+        max-width: 79%;
+      }
     }
 
     &__mail-i {
@@ -1038,7 +1054,8 @@ body {
     }
 
     &__decoration {
-      left: -150px;
+      max-width: 100%;
+      left: 0;
     }
   }
 }

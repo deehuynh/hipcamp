@@ -878,6 +878,18 @@ body {
   }
   .subscribe p {
     font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+  }
+  .subscribe__col-1 {
+    margin-top: 70px;
+    margin-bottom: 52px;
+  }
+  .subscribe__col-2 {
+    text-align: right;
+  }
+  .subscribe__col-2 img {
+    max-width: 79%;
   }
   .subscribe__mail-i {
     transform: scale(0.8);
@@ -893,7 +905,8 @@ body {
     text-indent: 6px;
   }
   .subscribe__decoration {
-    left: -150px;
+    max-width: 100%;
+    left: 0;
   }
 }
 
