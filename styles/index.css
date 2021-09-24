@@ -879,6 +879,19 @@ body {
   .subscribe p {
     font-size: 13px;
   }
+  .subscribe__mail-i {
+    transform: scale(0.8);
+    margin-left: 8px;
+  }
+  .subscribe__input-group {
+    width: 500px;
+    height: 68px;
+    border-radius: 15px;
+  }
+  .subscribe__input-group input {
+    font-size: 12px;
+    text-indent: 6px;
+  }
   .subscribe__decoration {
     left: -150px;
   }

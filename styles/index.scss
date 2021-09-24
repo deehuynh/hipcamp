@@ -1021,6 +1021,22 @@ body {
       font-size: 13px;
     }
 
+    &__mail-i {
+      transform: scale(.8);
+      margin-left: 8px;
+    }
+
+    &__input-group {
+      width: 500px;
+      height: 68px;
+      border-radius: 15px;
+
+      input {
+        font-size: 12px;
+        text-indent: 6px;
+      }
+    }
+
     &__decoration {
       left: -150px;
     }
