@@ -1299,8 +1299,8 @@ body {
     }
 
     p {
-      font-size: 13px;
-      line-height: 24px;
+      font-size: 12px;
+      line-height: 20px;
       margin: {
         top: 10px;
         bottom: 22px;
@@ -1308,14 +1308,14 @@ body {
     }
 
     &__col-1 {
-      margin-top: 70px;
-      margin-bottom: 52px;
+      margin-top: 63px;
+      margin-bottom: 45px;
     }
 
     &__col-2 {
       text-align: right;
       img {
-        max-width: 79%;
+        max-width: 69%;
       }
     }
 
@@ -1325,21 +1325,21 @@ body {
     }
 
     &__input-group {
-      width: 500px;
-      height: 68px;
+      width: 450px;
+      height: 63px;
       border-radius: 15px;
 
       input {
-        font-size: 13px;
+        font-size: 12px;
         text-indent: 6px;
       }
 
       div span {
-        @include block(40px);
-        border-radius: 15px;
+        @include block(38px);
+        border-radius: 14px;
 
         img {
-          width: 50%;
+          width: 48%;
         }
       }
     }
