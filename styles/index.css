@@ -1207,7 +1207,7 @@ body {
   }
 
   .hero {
-    padding-top: 40px;
+    padding-top: 35px;
     height: 830px;
     border-radius: 0 0 140px 140px;
   }
@@ -1234,14 +1234,14 @@ body {
     max-width: 1020px;
   }
   .header__nav a {
-    margin-left: 27px;
+    margin-left: 22px;
   }
   .header__group-1 {
-    width: 615px;
+    width: 545px;
   }
   .header__group-1 img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
   .header__group-2 {
     width: 220px;

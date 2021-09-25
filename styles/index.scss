@@ -1417,7 +1417,7 @@ body {
   }
 
   .hero {
-    padding-top: 40px;
+    padding-top: 35px;
     height: 830px;
     border-radius: 0 0 140px 140px;
 
@@ -1448,15 +1448,15 @@ body {
 
     &__nav {
       a {
-        margin-left: 27px;
+        margin-left: 22px;
       }
     }
 
     &__group-1 {
-      width: 615px;
+      width: 545px;
 
       img {
-        @include block(40px);
+        @include block(35px);
       }
     }
 
