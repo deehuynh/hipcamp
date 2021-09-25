@@ -1193,8 +1193,11 @@ body {
   }
 
   .decoration-right {
-    top: 750px;
-    right: -500px;
+    top: 820px;
+    right: -250px;
+  }
+  .decoration-right img {
+    width: 1950px;
   }
 }
 
