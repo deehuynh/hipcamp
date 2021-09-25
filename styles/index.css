@@ -1207,27 +1207,28 @@ body {
   }
 
   .hero {
-    padding-top: 35px;
-    height: 830px;
+    padding-top: 30px;
+    height: 720px;
     border-radius: 0 0 140px 140px;
   }
   .hero__btn {
-    width: 160px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 13px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
   }
   .hero__content {
-    margin-top: 180px;
+    margin-top: 155px;
   }
   .hero__content h1 {
-    font-size: 60px;
-    line-height: 65px;
+    font-size: 50px;
+    line-height: 55px;
   }
   .hero__content p {
-    font-size: 13px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    font-size: 12px;
+    margin-top: 22px;
+    margin-bottom: 17px;
+    line-height: 23px;
   }
 
   .header {
@@ -1244,13 +1245,13 @@ body {
     height: 35px;
   }
   .header__group-2 {
-    width: 220px;
+    width: 200px;
   }
   .header__sign-up, .header__sign-in {
-    font-size: 13px;
-    width: 110px;
-    height: 42px;
-    line-height: 42px;
+    font-size: 12px;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
   }
 
   .services {

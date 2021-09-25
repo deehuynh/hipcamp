@@ -1417,28 +1417,29 @@ body {
   }
 
   .hero {
-    padding-top: 35px;
-    height: 830px;
+    padding-top: 30px;
+    height: 720px;
     border-radius: 0 0 140px 140px;
 
     &__btn {
-      width: 160px;
-      height: 40px;
-      line-height: 40px;
-      font-size: 13px;
+      width: 140px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 12px;
     }
 
     &__content {
-      margin-top: 180px;
+      margin-top: 155px;
       h1 {
-        font-size: 60px;
-        line-height: 65px;
+        font-size: 50px;
+        line-height: 55px;
       }
 
       p {
-        font-size: 13px;
-        margin-top: 30px;
-        margin-bottom: 20px;
+        font-size: 12px;
+        margin-top: 22px;
+        margin-bottom: 17px;
+        line-height: 23px;
       }
     }
   }
@@ -1461,13 +1462,13 @@ body {
     }
 
     &__group-2 {
-      width: 220px;
+      width: 200px;
     }
 
     &__sign-up, &__sign-in {
-      font-size: 13px;
-      @include block(110px, 42px);
-      line-height: 42px;
+      font-size: 12px;
+      @include block(100px, 38px);
+      line-height: 38px;
     }
   }
 
