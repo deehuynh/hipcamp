@@ -1351,13 +1351,13 @@ body {
   }
 
   .footer {
-    margin-top: 140px;
-    border-radius: 160px 160px 0 0;
-    padding-top: 85px;
-    height: 420px;
+    margin-top: 130px;
+    border-radius: 150px 150px 0 0;
+    padding-top: 75px;
+    height: 375px;
 
     &__col {
-      width: 595px;
+      width: 535px;
     }
 
     &__container {
@@ -1365,22 +1365,22 @@ body {
     }
 
     h4 {
-      font-size: 15px;
-      margin-bottom: 17px;
+      font-size: 14px;
+      margin-bottom: 14px;
     }
 
     p {
-      font-size: 13px;
-      line-height: 24px;
+      font-size: 12px;
+      line-height: 22px;
     }
 
     &__row-1 span a {
-      font-size: 13px;
-      line-height: 24px;
+      font-size: 12px;
+      line-height: 22px;
     }
 
     &__row-2 {
-      margin-top: 5px;
+      margin-top: 3px;
 
       a:first-child {
         margin-right: 8px;
@@ -1388,13 +1388,13 @@ body {
     }
 
     &__row-3 {
-      margin-top: 45px;
-      font-size: 13px;
+      margin-top: 40px;
+      font-size: 12px;
     }
 
     &__download {
       img {
-        width: 120px;
+        width: 110px;
       }
     }
   }
