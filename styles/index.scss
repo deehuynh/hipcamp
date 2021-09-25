@@ -1473,79 +1473,82 @@ body {
   }
 
   .services {
-    margin-top: -80px;
+    margin-top: -60px;
     max-width: 1020px;
 
     &__item {
-      @include block(258px, 220px);
+      @include block(240px, 200px);
 
       img {
-        margin-top: 30px;
-        transform: scale(.7);
+        margin-top: 25px;
+        transform: scale(.6);
       }
 
       h4 {
-        margin-top: 8px;
-        font-size: 14px;
+        margin-top: 5px;
+        font-size: 12.5px;
+        margin-bottom: 10px;
       }
 
       p {
-        max-width: 208px;
-        font-size: 12px;
+        max-width: 220px;
+        font-size: 11px;
+        line-height: 13px;
       }
     }
   }
 
   .content {
-    margin-top: 110px;
+    margin-top: 100px;
 
     &__container {
-      max-width: 1100px;
+      max-width: 1020px;
     }
 
     &__btn {
-      @include block(160px, 40px);
-      line-height: 40px;
-      font-size: 14px;
+      @include block(145px, 36px);
+      line-height: 36px;
+      font-size: 13px;
       margin-top: 25px;
     }
 
     &__price {
-      @include block(110px, 42px);
-      line-height: 42px;
-      font-size: 13px;
-      bottom: -19px;
+      @include block(100px, 38px);
+      line-height: 38px;
+      font-size: 12px;
+      bottom: -16px;
+      border-radius: 12px;
     }
 
     &__like {
-      top: 14px;
-      right: 14px;
+      top: 13px;
+      right: 13px;
 
       img {
-        @include block(28px);
+        @include block(25px);
       }
     }
 
     &__item {
-      width: 258px;
-      padding: 29px;
-      margin-bottom: 25px;
+      width: 239px;
+      padding: 25px;
+      margin-bottom: 22px;
 
       h4 {
-        margin-top: 35px;
-        font-size: 13.5px;
+        margin-top: 33px;
+        font-size: 12.5px;
       }
 
       p {
-        font-size: 12px;
-        line-height: 20px;
-        margin-bottom: 20px;
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 17px;
       }
 
       &-btn {
-        @include block(145px, 38px);
-        line-height: 38px;
-        font-size: 13px;
+        @include block(140px, 35px);
+        line-height: 35px;
+        font-size: 12px;
       }
     }
 
@@ -1561,67 +1564,68 @@ body {
     }
 
     h1 {
-      margin-top: 30px;
-      font-size: 27px;
-      line-height: 33px;
+      margin-top: 22px;
+      font-size: 23px;
+      line-height: 26px;
     }
   }
 
   .subscribe {
-    margin-top: 110px;
-    max-width: 1100px;
+    margin-top: 95px;
+    max-width: 1020px;
 
     padding: {
-      left: 80px;
-      right: 80px;
+      left: 70px;
+      right: 70px;
     }
 
     h1 {
-      font-size: 27px;
+      font-size: 23px;
     }
 
     p {
-      font-size: 12px;
-      line-height: 20px;
+      font-size: 11px;
+      line-height: 18px;
       margin: {
-        top: 10px;
-        bottom: 22px;
+        top: 8px;
+        bottom: 20px;
       };
     }
 
     &__col-1 {
-      margin-top: 63px;
+      margin-top: 60px;
       margin-bottom: 45px;
     }
 
     &__col-2 {
       text-align: right;
       img {
-        max-width: 69%;
+        max-width: 63%;
       }
     }
 
     &__mail-i {
-      transform: scale(.8);
+      transform: scale(.7);
       margin-left: 8px;
+      margin-top: -1px;
     }
 
     &__input-group {
-      width: 450px;
-      height: 63px;
-      border-radius: 15px;
+      width: 410px;
+      height: 58px;
+      border-radius: 14px;
 
       input {
-        font-size: 12px;
-        text-indent: 6px;
+        font-size: 11px;
+        text-indent: 4px;
       }
 
       div span {
-        @include block(38px);
-        border-radius: 14px;
+        @include block(35px);
+        border-radius: 13px;
 
         img {
-          width: 48%;
+          width: 43%;
         }
       }
     }
@@ -1633,60 +1637,60 @@ body {
   }
 
   .footer {
-    margin-top: 130px;
-    border-radius: 150px 150px 0 0;
+    margin-top: 120px;
+    border-radius: 130px 130px 0 0;
     padding-top: 75px;
-    height: 375px;
+    height: 345px;
 
     &__col {
-      width: 535px;
+      width: 495px;
     }
 
     &__container {
-      max-width: 1100px;
+      max-width: 1020px;
     }
 
     h4 {
-      font-size: 14px;
-      margin-bottom: 14px;
+      font-size: 13px;
+      margin-bottom: 12px;
     }
 
     p {
-      font-size: 12px;
-      line-height: 22px;
+      font-size: 11px;
+      line-height: 20px;
     }
 
     &__row-1 span a {
-      font-size: 12px;
-      line-height: 22px;
+      font-size: 11px;
+      line-height: 20px;
     }
 
     &__row-2 {
-      margin-top: 3px;
+      margin-top: 2px;
 
       a:first-child {
-        margin-right: 8px;
+        margin-right: 5px;
       }
     }
 
     &__row-3 {
-      margin-top: 40px;
-      font-size: 12px;
+      margin-top: 35px;
+      font-size: 11px;
     }
 
     &__download {
       img {
-        width: 110px;
+        width: 100px;
       }
     }
   }
 
   .decoration-right {
-    top: 820px;
+    top: 720px;
     right: -250px;
 
     img {
-      width: 1950px;
+      width: 1850px;
     }
   }
 }
