@@ -1702,28 +1702,27 @@ body {
 
   .hero {
     padding-top: 25px;
-    height: 720px;
-    border-radius: 0 0 120px 120px;
+    height: 650px;
 
     &__btn {
-      width: 140px;
-      height: 35px;
-      line-height: 35px;
-      font-size: 12px;
+      width: 130px;
+      height: 32px;
+      line-height: 32px;
+      font-size: 11px;
     }
 
     &__content {
-      margin-top: 155px;
+      margin-top: 145px;
       h1 {
-        font-size: 50px;
-        line-height: 55px;
+        font-size: 42px;
+        line-height: 50px;
       }
 
       p {
-        font-size: 12px;
-        margin-top: 22px;
-        margin-bottom: 17px;
-        line-height: 23px;
+        font-size: 11px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        line-height: 20px;
       }
     }
   }
@@ -1733,26 +1732,31 @@ body {
 
     &__nav {
       a {
-        margin-left: 22px;
+        margin-left: 20px;
+      }
+
+      a.active::after {
+        height: 1.5px;
+        width: 25px;
       }
     }
 
     &__group-1 {
-      width: 545px;
+      width: 500px;
 
       img {
-        @include block(35px);
+        @include block(32px);
       }
     }
 
     &__group-2 {
-      width: 200px;
+      width: 180px;
     }
 
     &__sign-up, &__sign-in {
-      font-size: 12px;
-      @include block(100px, 38px);
-      line-height: 38px;
+      font-size: 11px;
+      @include block(90px, 34px);
+      line-height: 34px;
     }
   }
 
