@@ -656,7 +656,16 @@ body {
   }
 
   &__container {
+    position: relative;
     @include frame(1518px,auto,center);
+  }
+
+  &__top-arrow {
+    @include block(60px);
+    position: absolute;
+    right: 0;
+    top: -30px;
+    background-color: white;
   }
 
   &__row-1 {

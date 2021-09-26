@@ -570,10 +570,19 @@ body {
   line-height: 28px;
 }
 .footer__container {
+  position: relative;
   max-width: 1518px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+.footer__top-arrow {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  background-color: white;
 }
 .footer__row-1 {
   display: flex;
