@@ -973,6 +973,7 @@ body {
     &__item {
       width: 286px;
       padding: 32px;
+      border-radius: 15px;
 
       h4 {
         margin-top: 35px;
@@ -1248,6 +1249,7 @@ body {
       width: 258px;
       padding: 29px;
       margin-bottom: 25px;
+      border-radius: 13px;
 
       h4 {
         margin-top: 35px;
@@ -1270,7 +1272,7 @@ body {
     &__thumbnail {
       height: auto;
       img {
-        border-radius: 14px;
+        border-radius: 13px;
       }
     }
 
@@ -1533,6 +1535,7 @@ body {
       width: 239px;
       padding: 25px;
       margin-bottom: 22px;
+      border-radius: 10px;
 
       h4 {
         margin-top: 33px;
@@ -1555,7 +1558,7 @@ body {
     &__thumbnail {
       height: auto;
       img {
-        border-radius: 14px;
+        border-radius: 12px;
       }
     }
 
