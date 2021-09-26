@@ -1519,10 +1519,10 @@ body {
   }
 
   .content {
-    margin-top: 100px;
+    margin-top: 85px;
   }
   .content__container {
-    max-width: 1020px;
+    max-width: 920px;
   }
   .content__btn {
     width: 145px;
@@ -1574,13 +1574,13 @@ body {
     border-radius: 14px;
   }
   .content__icon {
-    width: 62.23px;
-    height: 62.31px;
+    width: 49.23px;
+    height: 49.31px;
   }
   .content h1 {
-    margin-top: 22px;
-    font-size: 23px;
-    line-height: 26px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .subscribe {

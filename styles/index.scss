@@ -1786,10 +1786,10 @@ body {
   }
 
   .content {
-    margin-top: 100px;
+    margin-top: 85px;
 
     &__container {
-      max-width: 1020px;
+      max-width: 920px;
     }
 
     &__btn {
@@ -1847,13 +1847,13 @@ body {
     }
 
     &__icon {
-      @include block(62.23px, 62.31px);
+      @include block(49.23px, 49.31px);
     }
 
     h1 {
-      margin-top: 22px;
-      font-size: 23px;
-      line-height: 26px;
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 24px;
     }
   }
 
