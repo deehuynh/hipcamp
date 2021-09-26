@@ -1694,3 +1694,287 @@ body {
     }
   }
 }
+
+@include media(1200px) {
+  .layout {
+    font-size: 11px;
+  }
+
+  .hero {
+    padding-top: 25px;
+    height: 720px;
+    border-radius: 0 0 120px 120px;
+
+    &__btn {
+      width: 140px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 12px;
+    }
+
+    &__content {
+      margin-top: 155px;
+      h1 {
+        font-size: 50px;
+        line-height: 55px;
+      }
+
+      p {
+        font-size: 12px;
+        margin-top: 22px;
+        margin-bottom: 17px;
+        line-height: 23px;
+      }
+    }
+  }
+
+  .header {
+    max-width: 920px;
+
+    &__nav {
+      a {
+        margin-left: 22px;
+      }
+    }
+
+    &__group-1 {
+      width: 545px;
+
+      img {
+        @include block(35px);
+      }
+    }
+
+    &__group-2 {
+      width: 200px;
+    }
+
+    &__sign-up, &__sign-in {
+      font-size: 12px;
+      @include block(100px, 38px);
+      line-height: 38px;
+    }
+  }
+
+  .services {
+    margin-top: -60px;
+    max-width: 1020px;
+
+    &__item {
+      @include block(240px, 200px);
+
+      img {
+        margin-top: 25px;
+        transform: scale(.6);
+      }
+
+      h4 {
+        margin-top: 5px;
+        font-size: 12.5px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        max-width: 220px;
+        font-size: 11px;
+        line-height: 13px;
+      }
+    }
+  }
+
+  .content {
+    margin-top: 100px;
+
+    &__container {
+      max-width: 1020px;
+    }
+
+    &__btn {
+      @include block(145px, 36px);
+      line-height: 36px;
+      font-size: 13px;
+      margin-top: 25px;
+    }
+
+    &__price {
+      @include block(100px, 38px);
+      line-height: 38px;
+      font-size: 12px;
+      bottom: -16px;
+      border-radius: 12px;
+    }
+
+    &__like {
+      top: 13px;
+      right: 13px;
+
+      img {
+        @include block(25px);
+      }
+    }
+
+    &__item {
+      width: 239px;
+      padding: 25px;
+      margin-bottom: 22px;
+
+      h4 {
+        margin-top: 33px;
+        font-size: 12.5px;
+      }
+
+      p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 17px;
+      }
+
+      &-btn {
+        @include block(140px, 35px);
+        line-height: 35px;
+        font-size: 12px;
+      }
+    }
+
+    &__thumbnail {
+      height: auto;
+      img {
+        border-radius: 14px;
+      }
+    }
+
+    &__icon {
+      @include block(62.23px, 62.31px);
+    }
+
+    h1 {
+      margin-top: 22px;
+      font-size: 23px;
+      line-height: 26px;
+    }
+  }
+
+  .subscribe {
+    margin-top: 95px;
+    max-width: 1020px;
+
+    padding: {
+      left: 70px;
+      right: 70px;
+    }
+
+    h1 {
+      font-size: 23px;
+    }
+
+    p {
+      font-size: 11px;
+      line-height: 18px;
+      margin: {
+        top: 8px;
+        bottom: 20px;
+      };
+    }
+
+    &__col-1 {
+      margin-top: 60px;
+      margin-bottom: 45px;
+    }
+
+    &__col-2 {
+      text-align: right;
+      img {
+        max-width: 63%;
+      }
+    }
+
+    &__mail-i {
+      transform: scale(.7);
+      margin-left: 8px;
+      margin-top: -1px;
+    }
+
+    &__input-group {
+      width: 410px;
+      height: 58px;
+      border-radius: 14px;
+
+      input {
+        font-size: 11px;
+        text-indent: 4px;
+      }
+
+      div span {
+        @include block(35px);
+        border-radius: 13px;
+
+        img {
+          width: 43%;
+        }
+      }
+    }
+
+    &__decoration {
+      max-width: 100%;
+      left: 0;
+    }
+  }
+
+  .footer {
+    margin-top: 120px;
+    border-radius: 130px 130px 0 0;
+    padding-top: 75px;
+    height: 345px;
+
+    &__col {
+      width: 495px;
+    }
+
+    &__container {
+      max-width: 1020px;
+    }
+
+    h4 {
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 11px;
+      line-height: 20px;
+    }
+
+    &__row-1 span a {
+      font-size: 11px;
+      line-height: 20px;
+    }
+
+    &__row-2 {
+      margin-top: 2px;
+
+      a:first-child {
+        margin-right: 5px;
+      }
+    }
+
+    &__row-3 {
+      margin-top: 35px;
+      font-size: 11px;
+    }
+
+    &__download {
+      img {
+        width: 100px;
+      }
+    }
+  }
+
+  .decoration-right {
+    top: 720px;
+    right: -250px;
+
+    img {
+      width: 1850px;
+    }
+  }
+}
