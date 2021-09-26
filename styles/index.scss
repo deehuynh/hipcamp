@@ -1762,26 +1762,25 @@ body {
 
   .services {
     margin-top: -60px;
-    max-width: 1020px;
+    max-width: 920px;
 
     &__item {
-      @include block(240px, 200px);
+      @include block(218px, 180px);
 
       img {
-        margin-top: 25px;
-        transform: scale(.6);
+        margin-top: 20px;
+        transform: scale(.5);
       }
 
       h4 {
-        margin-top: 5px;
-        font-size: 12.5px;
-        margin-bottom: 10px;
+        margin-top: 0px;
+        font-size: 11px;
+        margin-bottom: 8px;
       }
 
       p {
-        max-width: 220px;
-        font-size: 11px;
-        line-height: 13px;
+        max-width: 194px;
+        font-size: 9.5px;
       }
     }
   }
