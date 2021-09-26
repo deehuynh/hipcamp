@@ -583,6 +583,14 @@ body {
   right: 0;
   top: -30px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.footer__top-arrow:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 .footer__row-1 {
   display: flex;

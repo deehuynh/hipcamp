@@ -666,6 +666,13 @@ body {
     right: 0;
     top: -30px;
     background-color: white;
+    @include flex(0,center,center);
+    border-radius: 20px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: .8;
+    }
   }
 
   &__row-1 {
