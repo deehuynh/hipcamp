@@ -1586,51 +1586,49 @@ body {
   }
 
   .subscribe {
-    margin-top: 95px;
-    max-width: 1020px;
-    padding-left: 70px;
-    padding-right: 70px;
+    margin-top: 75px;
+    max-width: 920px;
+    border-radius: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
   }
   .subscribe h1 {
-    font-size: 23px;
+    font-size: 20px;
   }
   .subscribe p {
-    font-size: 11px;
-    line-height: 18px;
-    margin-top: 8px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: 6px;
+    margin-bottom: 18px;
   }
   .subscribe__col-1 {
-    margin-top: 60px;
-    margin-bottom: 45px;
-  }
-  .subscribe__col-2 {
-    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
   .subscribe__col-2 img {
-    max-width: 63%;
+    max-width: 60%;
   }
   .subscribe__mail-i {
-    transform: scale(0.7);
-    margin-left: 8px;
+    transform: scale(0.6);
+    margin-left: 4px;
     margin-top: -1px;
   }
   .subscribe__input-group {
-    width: 410px;
-    height: 58px;
-    border-radius: 14px;
-  }
-  .subscribe__input-group input {
-    font-size: 11px;
-    text-indent: 4px;
-  }
-  .subscribe__input-group div span {
-    width: 35px;
-    height: 35px;
+    width: 360px;
+    height: 52px;
     border-radius: 13px;
   }
+  .subscribe__input-group input {
+    font-size: 10px;
+    text-indent: 1px;
+  }
+  .subscribe__input-group div span {
+    width: 30px;
+    height: 30px;
+    border-radius: 11px;
+  }
   .subscribe__input-group div span img {
-    width: 43%;
+    width: 40%;
   }
   .subscribe__decoration {
     max-width: 100%;
