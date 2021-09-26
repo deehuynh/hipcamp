@@ -1525,53 +1525,54 @@ body {
     max-width: 920px;
   }
   .content__btn {
-    width: 145px;
-    height: 36px;
-    line-height: 36px;
-    font-size: 13px;
-    margin-top: 25px;
+    width: 135px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 11px;
+    margin-top: 20px;
   }
   .content__price {
-    width: 100px;
-    height: 38px;
-    line-height: 38px;
-    font-size: 12px;
-    bottom: -16px;
-    border-radius: 12px;
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 11px;
+    bottom: -13px;
+    border-radius: 11px;
   }
   .content__like {
-    top: 13px;
-    right: 13px;
+    top: 12px;
+    right: 12px;
   }
   .content__like img {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
   }
   .content__item {
-    width: 239px;
-    padding: 25px;
-    margin-bottom: 22px;
+    width: 216px;
+    padding: 21px;
+    margin-bottom: 20px;
+    border-radius: 15px;
   }
   .content__item h4 {
     margin-top: 33px;
-    font-size: 12.5px;
+    font-size: 11.5px;
   }
   .content__item p {
-    font-size: 11px;
+    font-size: 9.5px;
     line-height: 18px;
     margin-bottom: 17px;
   }
   .content__item-btn {
-    width: 140px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 12px;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 11px;
   }
   .content__thumbnail {
     height: auto;
   }
   .content__thumbnail img {
-    border-radius: 14px;
+    border-radius: 12px;
   }
   .content__icon {
     width: 49.23px;
@@ -1581,6 +1582,7 @@ body {
     margin-top: 20px;
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 40px;
   }
 
   .subscribe {
