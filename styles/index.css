@@ -1652,7 +1652,7 @@ body {
   }
   .footer h4 {
     font-size: 11px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
   .footer p {
     font-size: 10px;
@@ -1677,11 +1677,11 @@ body {
   }
 
   .decoration-right {
-    top: 720px;
+    top: 600px;
     right: -250px;
   }
   .decoration-right img {
-    width: 1850px;
+    width: 1750px;
   }
 }
 
