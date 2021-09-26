@@ -1554,7 +1554,7 @@ body {
     width: 216px;
     padding: 21px;
     margin-bottom: 20px;
-    border-radius: 15px;
+    border-radius: 9px;
   }
   .content__item h4 {
     margin-top: 30px;
@@ -1639,7 +1639,7 @@ body {
   }
 
   .footer {
-    margin-top: 120px;
+    margin-top: 110px;
     border-radius: 130px 130px 0 0;
     padding-top: 75px;
     height: 345px;
@@ -1648,7 +1648,7 @@ body {
     width: 495px;
   }
   .footer__container {
-    max-width: 1020px;
+    max-width: 920px;
   }
   .footer h4 {
     font-size: 13px;
