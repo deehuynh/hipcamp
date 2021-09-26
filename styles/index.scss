@@ -664,7 +664,7 @@ body {
     @include block(60px);
     position: absolute;
     right: 0;
-    top: -30px;
+    top: -136px;
     background-color: white;
     @include flex(0,center,center);
     border-radius: 20px;
@@ -840,6 +840,10 @@ body {
     border-radius: 140px 140px 0 0;
     padding-top: 95px;
     height: 490px;
+
+    &__top-arrow {
+      top: -126px;
+    }
 
     &__container {
       max-width: 1418px;
@@ -1097,6 +1101,17 @@ body {
     border-radius: 160px 160px 0 0;
     padding-top: 85px;
     height: 420px;
+
+    &__top-arrow {
+      @include block(45px);
+      border-radius: 15px;
+      top: -110px;
+
+      img {
+        width: 15px;
+        height: auto;
+      }
+    }
 
     &__col {
       width: 595px;
@@ -1373,6 +1388,17 @@ body {
     border-radius: 150px 150px 0 0;
     padding-top: 75px;
     height: 375px;
+
+    &__top-arrow {
+      @include block(40px);
+      border-radius: 13px;
+      top: -97px;
+
+      img {
+        width: 13px;
+        height: auto;
+      }
+    }
 
     &__col {
       width: 535px;
@@ -1660,6 +1686,17 @@ body {
     border-radius: 130px 130px 0 0;
     padding-top: 75px;
     height: 345px;
+
+    &__top-arrow {
+      @include block(38px);
+      border-radius: 12px;
+      top: -95px;
+
+      img {
+        width: 11px;
+        height: auto;
+      }
+    }
 
     &__col {
       width: 495px;
@@ -1949,6 +1986,17 @@ body {
     border-radius: 120px 120px 0 0;
     padding-top: 65px;
     height: 315px;
+
+    &__top-arrow {
+      @include block(35px);
+      border-radius: 11px;
+      top: -84px;
+
+      img {
+        width: 10px;
+        height: auto;
+      }
+    }
 
     &__col {
       width: 445px;
