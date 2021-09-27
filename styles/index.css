@@ -60,23 +60,6 @@ body {
 .hero__btn:hover {
   opacity: 0.5;
 }
-@media (max-width: 768px) {
-  .hero {
-    padding-top: 40px;
-  }
-}
-@media (max-width: 425px) {
-  .hero {
-    height: 761px;
-    border-radius: 0 0 100px 100px;
-  }
-  .hero__content {
-    margin-top: 117px;
-  }
-  .hero__btn {
-    width: 160px;
-  }
-}
 
 .header {
   max-width: 1518px;
