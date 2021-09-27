@@ -188,20 +188,6 @@ body {
 .header__menu-btn {
   display: none;
 }
-@media (max-width: 1170px) {
-  .header__group-1 {
-    width: 750px;
-  }
-  .header__nav a {
-    margin-left: 25px;
-  }
-  .header__group-2 {
-    width: 240px;
-  }
-  .header__sign-up, .header__sign-in {
-    width: 120px;
-  }
-}
 @media (max-width: 1024px) {
   .header__nav {
     display: none;

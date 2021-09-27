@@ -214,25 +214,6 @@ body {
     display: none;
   }
 
-  @include media (1170px) {
-    &__group-1 {
-      width: 750px;
-    }
-    &__nav {
-      a {
-        margin-left: 25px;
-      }
-    }
-
-    &__group-2 {
-      width: 240px;
-    }
-
-    &__sign-up, &__sign-in {
-      width: 120px;
-    }
-  }
-
   @include media (1024px) {
     &__nav {
       display: none;
