@@ -2104,6 +2104,7 @@ body {
     }
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: -100px;
 
     &__item {
       @include block(357px, 312px);
@@ -2117,8 +2118,8 @@ body {
       h4 {
         font-size: 18px;
         margin: {
-          top: 25px;
-          bottom: 20px;
+          top: 30px;
+          bottom: 15px;
         };
       }
 
