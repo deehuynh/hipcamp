@@ -1611,7 +1611,7 @@ body {
     padding-top: 60px;
   }
   .hero__content {
-    margin-top: 300px;
+    margin-top: 280px;
   }
   .hero h1 {
     font-size: 65px;
@@ -1620,6 +1620,14 @@ body {
   .hero p {
     font-size: 18px;
     line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .hero__btn {
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
   }
 
   .header {
