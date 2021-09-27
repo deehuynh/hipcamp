@@ -1605,5 +1605,10 @@ body {
     width: 1750px;
   }
 }
+@media (max-width: 1024px) {
+  .hero {
+    height: 1080px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -2032,4 +2032,8 @@ body {
   }
 }
 
-@include media (1024px) {}
+@include media (1024px) {
+  .hero {
+    height: 1080px;
+  }
+}
