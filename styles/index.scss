@@ -2036,6 +2036,20 @@ body {
   .hero {
     height: 1080px;
     padding-top: 60px;
+
+    &__content {
+      margin-top: 300px;
+    }
+
+    h1 {
+      font-size: 65px;
+      line-height: 75px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
   }
 
   .header {

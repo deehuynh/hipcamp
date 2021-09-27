@@ -1610,6 +1610,17 @@ body {
     height: 1080px;
     padding-top: 60px;
   }
+  .hero__content {
+    margin-top: 300px;
+  }
+  .hero h1 {
+    font-size: 65px;
+    line-height: 75px;
+  }
+  .hero p {
+    font-size: 18px;
+    line-height: 30px;
+  }
 
   .header {
     max-width: 100%;
