@@ -1658,6 +1658,37 @@ body {
     display: none;
   }
 
+  .services {
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services__item {
+    width: 357px;
+    height: 312px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+  .services__item h4 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .services__item p {
+    max-width: 100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .services__item img {
+    margin-top: 60px;
+    transform: scale(1);
+  }
+
   .decoration-right {
     display: none;
   }

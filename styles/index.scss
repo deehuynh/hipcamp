@@ -2096,6 +2096,47 @@ body {
     }
   }
 
+  .services {
+    max-width: 100%;
+    margin: {
+      left: 40px;
+      right: 40px;
+    }
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item {
+      @include block(357px, 312px);
+
+      margin: {
+        left: 15px;
+        right: 15px;
+        bottom: 30px;
+      };
+
+      h4 {
+        font-size: 18px;
+        margin: {
+          top: 25px;
+          bottom: 20px;
+        };
+      }
+
+      p {
+        max-width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      img {
+        margin-top: 60px;
+        transform: scale(1);
+      }
+    }
+  }
+
   .decoration-right {
     display: none;
   }
