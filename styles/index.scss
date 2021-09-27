@@ -234,17 +234,17 @@ body {
   //   }
   // }
 
-  @include media (500px) {
-    &__menu-btn {
-      margin-left: 20px;
-    }
-  }
+  // @include media (500px) {
+  //   &__menu-btn {
+  //     margin-left: 20px;
+  //   }
+  // }
 
-  @include media (425px) {
-    &__sign-up, &__sign-in {
-      display: none;
-    }
-  }
+  // @include media (425px) {
+  //   &__sign-up, &__sign-in {
+  //     display: none;
+  //   }
+  // }
 }
 
 .button {
