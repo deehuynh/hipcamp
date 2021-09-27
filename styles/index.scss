@@ -214,25 +214,25 @@ body {
     display: none;
   }
 
-  @include media (1024px) {
-    &__nav {
-      display: none;
-    }
+  // @include media (1024px) {
+  //   &__nav {
+  //     display: none;
+  //   }
 
-    &__group-2 {
-      width: auto;
-      align-items: normal;
-    }
+  //   &__group-2 {
+  //     width: auto;
+  //     align-items: normal;
+  //   }
 
-    &__menu-btn {
-      display: block;
-      margin-left: 40px;
+  //   &__menu-btn {
+  //     display: block;
+  //     margin-left: 40px;
 
-      &:hover {
-        opacity: .6;
-      }
-    }
-  }
+  //     &:hover {
+  //       opacity: .6;
+  //     }
+  //   }
+  // }
 
   @include media (500px) {
     &__menu-btn {

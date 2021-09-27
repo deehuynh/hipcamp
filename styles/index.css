@@ -143,22 +143,6 @@ body {
 .header__menu-btn {
   display: none;
 }
-@media (max-width: 1024px) {
-  .header__nav {
-    display: none;
-  }
-  .header__group-2 {
-    width: auto;
-    align-items: normal;
-  }
-  .header__menu-btn {
-    display: block;
-    margin-left: 40px;
-  }
-  .header__menu-btn:hover {
-    opacity: 0.6;
-  }
-}
 @media (max-width: 500px) {
   .header__menu-btn {
     margin-left: 20px;
