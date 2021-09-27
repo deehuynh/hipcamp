@@ -49,34 +49,6 @@ body {
   margin-bottom: 30px;
   margin-top: 59px;
 }
-@media (max-width: 550px) {
-  .hero__content p br {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .hero__content h1 {
-    font-size: 55px;
-  }
-}
-@media (max-width: 425px) {
-  .hero__content h1 {
-    font-size: 45px;
-    line-height: 49px;
-  }
-  .hero__content p {
-    margin-top: 37px;
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 350px) {
-  .hero__content h1 {
-    font-size: 38px;
-  }
-  .hero__content p {
-    font-size: 16px;
-  }
-}
 .hero__btn {
   display: inline-block;
   width: 205px;

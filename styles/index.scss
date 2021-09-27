@@ -54,42 +54,42 @@ body {
         top: 59px;
       };
 
-      @include media (550px) {
-        br {
-          display: none;
-        }
-      }
+      // @include media (550px) {
+      //   br {
+      //     display: none;
+      //   }
+      // }
     }
 
-    @include media (768px) {
-      h1 {
-        font-size: 55px;
-      }
-    }
+    // @include media (768px) {
+    //   h1 {
+    //     font-size: 55px;
+    //   }
+    // }
 
-    @include media (425px) {
-      h1 {
-        font-size: 45px;
-        line-height: 49px;
-      }
+    // @include media (425px) {
+    //   h1 {
+    //     font-size: 45px;
+    //     line-height: 49px;
+    //   }
 
-      p {
-        margin: {
-          top: 37px;
-          bottom: 20px;
-        };
-      }
-    }
+    //   p {
+    //     margin: {
+    //       top: 37px;
+    //       bottom: 20px;
+    //     };
+    //   }
+    // }
 
-    @include media (350px) {
-      h1 {
-        font-size: 38px;
-      }
+    // @include media (350px) {
+    //   h1 {
+    //     font-size: 38px;
+    //   }
 
-      p {
-        font-size: 16px;
-      }
-    }
+    //   p {
+    //     font-size: 16px;
+    //   }
+    // }
   }
 
   &__btn {
