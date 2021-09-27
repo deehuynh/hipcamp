@@ -2035,5 +2035,21 @@ body {
 @include media (1024px) {
   .hero {
     height: 1080px;
+    padding-top: 60px;
+  }
+
+  .header {
+    max-width: 100%;
+    margin: 0 40px;
+
+    &__group-1 {
+      img {
+        @include block(50px);
+      }
+    }
+
+    &__nav {
+      display: none;
+    }
   }
 }

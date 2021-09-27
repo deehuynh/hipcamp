@@ -1608,6 +1608,19 @@ body {
 @media (max-width: 1024px) {
   .hero {
     height: 1080px;
+    padding-top: 60px;
+  }
+
+  .header {
+    max-width: 100%;
+    margin: 0 40px;
+  }
+  .header__group-1 img {
+    width: 50px;
+    height: 50px;
+  }
+  .header__nav {
+    display: none;
   }
 }
 
