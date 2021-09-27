@@ -1657,6 +1657,10 @@ body {
   .header__nav {
     display: none;
   }
+
+  .decoration-right {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
