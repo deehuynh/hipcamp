@@ -2062,6 +2062,10 @@ body {
     &__menu-btn {
       display: block;
       margin-left: 40px;
+
+      &:hover {
+        opacity: .6;
+      }
     }
 
     &__nav {

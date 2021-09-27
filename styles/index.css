@@ -1632,6 +1632,9 @@ body {
     display: block;
     margin-left: 40px;
   }
+  .header__menu-btn:hover {
+    opacity: 0.6;
+  }
   .header__nav {
     display: none;
   }
