@@ -1952,7 +1952,7 @@ body {
 }
 @media (max-width: 375px) {
   .hero__content {
-    margin-top: 140px;
+    margin-top: 130px;
   }
   .hero h1 {
     font-size: 40px;
@@ -1969,6 +1969,15 @@ body {
     width: 195px;
     height: 48px;
     line-height: 48px;
+  }
+
+  .header__logo img {
+    width: 45px;
+    height: 45px;
+  }
+  .header__menu-btn img {
+    width: 45px;
+    height: 45px;
   }
 }
 @media (max-width: 350px) {
