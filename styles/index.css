@@ -2026,6 +2026,27 @@ body {
     margin-bottom: 20px;
   }
   .services__item h4 {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .services__item p {
+    font-size: 15px;
+  }
+  .services__item img {
+    transform: scale(0.8);
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .services__item {
+    width: 320px;
+    height: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .services__item h4 {
+    margin-top: 20px;
     font-size: 17px;
   }
   .services__item p {
