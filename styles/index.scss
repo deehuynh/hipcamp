@@ -7,6 +7,14 @@
 $c-nav: #D2D2D2;
 $c-nav-active: #ffffff;
 
+@mixin container ($spacing) {
+  max-width: 100%;
+  margin: {
+    left: $spacing;
+    right: $spacing;
+  }
+}
+
 body {
   background-color: #FAF4F2;
   font-size: 18px;
@@ -2140,5 +2148,75 @@ body {
 
   .decoration-right {
     display: none;
+  }
+
+  .content {
+    &__icon {
+      @include block(80px,auto);
+    }
+
+    &__btn {
+      @include block(185px, 45px);
+      line-height: 45px;
+      font-size: 16px;
+      margin-top: 40px;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 36px;
+      line-height: 42px;
+      margin-bottom: 60px;
+    }
+
+    &__container {
+      @include container(10px);
+      justify-content: center;
+    }
+
+    &__like {
+      top: 15px;
+      right: 15px;
+
+      img {
+        border-radius: 15px;
+        @include block(32px);
+      }
+    }
+
+    &__price {
+      @include block(130px, 50px);
+      line-height: 50px;
+      font-size: 16px;
+      bottom: -23px;
+      border-radius: 15px;
+    }
+
+    &__item {
+      width: 270px;
+      padding: 32px;
+      margin: {
+        left: 10px;
+        right: 10px;
+      };
+
+      h4 {
+        margin-top: 35px;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 18px;
+      }
+
+      &-btn {
+        @include block(145px, 40px);
+        font-size: 13px;
+        line-height: 40px;
+      }
+    }
   }
 }
