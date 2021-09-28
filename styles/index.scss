@@ -2534,17 +2534,28 @@ body {
 
 @include media (660px) {
   .services {
-    margin-top: -110px;
+    margin-top: -100px;
     &__item {
-      @include block(300px, 255px);
+      @include block(260px, 225px);
+      margin: {
+        left: 8px;
+        right: 8px;
+        bottom: 16px;
+      };
 
       h4 {
-        margin-top: 10px;
+        font-size: 15px;
+        margin-top: 5px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 20px;
       }
 
       img {
-        transform: scale(.7);
-        margin-top: 30px;
+        transform: scale(.6);
+        margin-top: 25px;
       }
     }
   }
