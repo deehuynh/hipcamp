@@ -661,6 +661,7 @@ body {
     background-color: white;
     @include flex(0,center,center);
     border-radius: 20px;
+    box-shadow: 5px 10px 30px rgba(59,55,53,.05);
 
     &:hover {
       cursor: pointer;
@@ -2297,6 +2298,19 @@ body {
     padding-top: 100px;
     padding-bottom: 30px;
 
+    &__top-arrow {
+      @include block(50px);
+      left: 0;
+      right: 0;
+      top: -128px;
+      margin: auto;
+      border-radius: 15px;
+
+      img {
+        width: 15px;
+      }
+    }
+
     &__container {
       @include container(80px);
     }
@@ -2331,6 +2345,11 @@ body {
     p {
       font-size: 15px;
       line-height: 28px;
+    }
+
+    &__col {
+      width: 100%;
+      margin-top: 15px;
     }
 
     &__col span a {

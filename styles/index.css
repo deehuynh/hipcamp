@@ -451,6 +451,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  box-shadow: 5px 10px 30px rgba(59, 55, 53, 0.05);
 }
 .footer__top-arrow:hover {
   cursor: pointer;
@@ -1824,6 +1825,18 @@ body {
     padding-top: 100px;
     padding-bottom: 30px;
   }
+  .footer__top-arrow {
+    width: 50px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    top: -128px;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .footer__top-arrow img {
+    width: 15px;
+  }
   .footer__container {
     max-width: 100%;
     margin-left: 80px;
@@ -1852,6 +1865,10 @@ body {
   .footer p {
     font-size: 15px;
     line-height: 28px;
+  }
+  .footer__col {
+    width: 100%;
+    margin-top: 15px;
   }
   .footer__col span a {
     font-size: 15px;
