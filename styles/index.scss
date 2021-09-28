@@ -2512,25 +2512,15 @@ body {
 @include media (768px) {
   .services {
     &__item {
-      @include block(320px, 270px);
-      margin: {
-        left: 10px;
-        right: 10px;
-        bottom: 20px;
-      }
+      @include block(300px, 260px);
 
       h4 {
-        margin-top: 20px;
-        font-size: 17px;
-      }
-
-      p {
-        font-size: 15px;
+        margin-top: 10px;
       }
 
       img {
-        transform: scale(.8);
-        margin-top: 40px;
+        transform: scale(.7);
+        margin-top: 30px;
       }
     }
   }
