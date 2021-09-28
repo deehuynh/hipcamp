@@ -1818,6 +1818,45 @@ body {
     height: 100%;
     max-width: none;
   }
+
+  .footer {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .footer__container {
+    max-width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .footer__row-1 {
+    flex-direction: column;
+  }
+  .footer__row-2 a:first-child {
+    margin-right: 10px;
+  }
+  .footer__row-2 {
+    margin-top: 30px;
+  }
+  .footer__row-2 img {
+    width: 160px;
+  }
+  .footer__row-3 {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+  .footer h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .footer p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .footer__col span a {
+    font-size: 15px;
+    line-height: 28px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
