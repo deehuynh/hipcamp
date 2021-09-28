@@ -2364,3 +2364,103 @@ body {
     }
   }
 }
+
+@include media (425px) {
+  .header {
+    margin: 0 20px;
+  }
+  .hero {
+    height: 761px;
+
+    &__content {
+      margin: {
+        left: 15px;
+        right: 15px;
+      };
+    }
+
+    h1 {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    &__btn {
+      font-size: 18px;
+      @include block(205px, 50px);
+      line-height: 50px;
+    }
+  }
+}
+
+@include media (375px) {
+  .hero {
+
+    &__content {
+      margin-top: 140px;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+
+    p {
+      margin: {
+        top: 20px;
+        bottom: 20px;
+      }
+      font-size: 17px;
+      line-height: 28px;
+    }
+
+    &__btn {
+      font-size: 17px;
+      @include block(195px, 48px);
+      line-height: 48px;
+    }
+  }
+}
+
+@include media (350px) {
+  .hero {
+    height: 670px;
+    padding-top: 20px;
+
+    &__content {
+      margin-top: 110px;
+    }
+
+    h1 {
+      font-size: 35px;
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &__btn {
+      font-size: 14px;
+      @include block(160px, 40px);
+      line-height: 40px;
+    }
+  }
+
+  .header {
+    &__logo {
+      img {
+        @include block(40px);
+      }
+    }
+
+    &__menu-btn {
+      img {
+        @include block(40px);
+      }
+    }
+  }
+}

@@ -1925,5 +1925,83 @@ body {
     margin-top: 160px;
   }
 }
+@media (max-width: 425px) {
+  .header {
+    margin: 0 20px;
+  }
+
+  .hero {
+    height: 761px;
+  }
+  .hero__content {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .hero h1 {
+    font-size: 45px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  .hero__btn {
+    font-size: 18px;
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .hero__content {
+    margin-top: 140px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .hero p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .hero__btn {
+    font-size: 17px;
+    width: 195px;
+    height: 48px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 350px) {
+  .hero {
+    height: 670px;
+    padding-top: 20px;
+  }
+  .hero__content {
+    margin-top: 110px;
+  }
+  .hero h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .hero p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero__btn {
+    font-size: 14px;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .header__logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .header__menu-btn img {
+    width: 40px;
+    height: 40px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
