@@ -1876,5 +1876,54 @@ body {
     line-height: 28px;
   }
 }
+@media (max-width: 575px) {
+  .hero {
+    height: 860px;
+    border-radius: 0 0 110px 110px;
+  }
+  .hero__btn {
+    font-size: 16px;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+  }
+  .hero__content {
+    margin-top: 200px;
+  }
+  .hero h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .hero p {
+    font-size: 17px;
+    margin-top: 25px;
+  }
+  .hero p br {
+    display: none;
+  }
+}
+@media (max-width: 525px) {
+  .hero {
+    height: 820px;
+    padding-top: 40px;
+  }
+  .hero__content {
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .header__sign-up, .header__sign-in {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .hero {
+    height: 780px;
+  }
+  .hero__content {
+    margin-top: 160px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -61,43 +61,7 @@ body {
         bottom: 30px;
         top: 59px;
       };
-
-      // @include media (550px) {
-      //   br {
-      //     display: none;
-      //   }
-      // }
     }
-
-    // @include media (768px) {
-    //   h1 {
-    //     font-size: 55px;
-    //   }
-    // }
-
-    // @include media (425px) {
-    //   h1 {
-    //     font-size: 45px;
-    //     line-height: 49px;
-    //   }
-
-    //   p {
-    //     margin: {
-    //       top: 37px;
-    //       bottom: 20px;
-    //     };
-    //   }
-    // }
-
-    // @include media (350px) {
-    //   h1 {
-    //     font-size: 38px;
-    //   }
-
-    //   p {
-    //     font-size: 16px;
-    //   }
-    // }
   }
 
   &__btn {
@@ -112,25 +76,6 @@ body {
       opacity: .5;
     }
   }
-
-  // @include media (768px) {
-  //   padding: {
-  //     top: 40px;
-  //   }
-  // }
-
-  // @include media (425px) {
-  //   height: 761px;
-  //   border-radius: 0 0 100px 100px;
-
-  //   &__content {
-  //     margin-top: 117px;
-  //   }
-
-  //   &__btn {
-  //     width: 160px;
-  //   }
-  // }
 }
 
 .header {
@@ -2356,6 +2301,66 @@ body {
     &__col span a {
       font-size: 15px;
       line-height: 28px;
+    }
+  }
+}
+
+@include media (575px) {
+  .hero {
+    height: 860px;
+    border-radius: 0 0 110px 110px;
+
+    &__btn {
+      font-size: 16px;
+      width: 180px;
+      height: 45px;
+      line-height: 45px;
+    }
+    &__content {
+      margin-top: 200px;
+    }
+    h1 {
+      font-size: 45px;
+      line-height: 55px;
+    }
+
+    p {
+      font-size: 17px;
+      margin-top: 25px;
+
+      br {
+        display: none;
+      }
+    }
+  }
+}
+
+@include media (525px) {
+  .hero {
+    height: 820px;
+    padding-top: 40px;
+
+    &__content {
+      margin-top: 180px;
+      margin: {
+        left: 50px;
+        right: 50px;
+      };
+    }
+  }
+  .header {
+    &__sign-up, &__sign-in {
+      display: none;
+    }
+  }
+}
+
+@include media (450px) {
+  .hero {
+    height: 780px;
+
+    &__content {
+      margin-top: 160px;
     }
   }
 }
