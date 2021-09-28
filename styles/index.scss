@@ -2484,6 +2484,11 @@ body {
 
 @include media (870px) {
   .services {
+    margin: {
+      top: -120px;
+      left: 10px;
+      right: 10px;
+    };
     &__item {
       @include block(320px, 270px);
       margin: {
@@ -2509,10 +2514,29 @@ body {
   }
 }
 
-@include media (768px) {
+@include media (710px) {
   .services {
+    margin-top: -110px;
     &__item {
-      @include block(300px, 260px);
+      @include block(300px, 255px);
+
+      h4 {
+        margin-top: 10px;
+      }
+
+      img {
+        transform: scale(.7);
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@include media (660px) {
+  .services {
+    margin-top: -110px;
+    &__item {
+      @include block(300px, 255px);
 
       h4 {
         margin-top: 10px;

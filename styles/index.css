@@ -2018,6 +2018,11 @@ body {
   }
 }
 @media (max-width: 870px) {
+  .services {
+    margin-top: -120px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .services__item {
     width: 320px;
     height: 270px;
@@ -2037,10 +2042,29 @@ body {
     margin-top: 40px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 710px) {
+  .services {
+    margin-top: -110px;
+  }
   .services__item {
     width: 300px;
-    height: 260px;
+    height: 255px;
+  }
+  .services__item h4 {
+    margin-top: 10px;
+  }
+  .services__item img {
+    transform: scale(0.7);
+    margin-top: 30px;
+  }
+}
+@media (max-width: 660px) {
+  .services {
+    margin-top: -110px;
+  }
+  .services__item {
+    width: 300px;
+    height: 255px;
   }
   .services__item h4 {
     margin-top: 10px;
