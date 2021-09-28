@@ -330,6 +330,9 @@ body {
   padding-right: 100px;
   box-sizing: border-box;
 }
+.subscribe__decoration-m {
+  display: none;
+}
 .subscribe h1 {
   font-family: "Archivo";
   font-size: 40px;
@@ -1755,6 +1758,40 @@ body {
     height: 40px;
     font-size: 13px;
     line-height: 40px;
+  }
+
+  .subscribe {
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .subscribe h1 {
+    font-size: 30px;
+  }
+  .subscribe p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .subscribe__col-2 {
+    text-align: center;
+  }
+  .subscribe__col-2 img {
+    max-width: none;
+    width: 40%;
+    margin-top: 20px;
+  }
+  .subscribe__decoration {
+    display: none;
+  }
+  .subscribe__decoration-m {
+    display: block;
+    width: 40%;
+    height: 100%;
+    max-width: none;
   }
 }
 

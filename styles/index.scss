@@ -531,6 +531,10 @@ body {
   }
   box-sizing: border-box;
 
+  &__decoration-m {
+    display: none;
+  }
+
   h1 {
     font-family: 'Archivo';
     font-size: 40px;
@@ -2216,6 +2220,43 @@ body {
         @include block(145px, 40px);
         font-size: 13px;
         line-height: 40px;
+      }
+    }
+  }
+
+  .subscribe {
+    @include container(40px);
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 100px;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    &__col-2 {
+      text-align: center;
+      img {
+        max-width: none;
+        width: 40%;
+        margin-top: 20px;
+      }
+    }
+
+    &__decoration {
+      display: none;
+
+      &-m {
+        display: block;
+        width: 40%;
+        height: 100%;
+        max-width: none;
       }
     }
   }
