@@ -1823,7 +1823,8 @@ body {
   .footer {
     height: auto;
     padding-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    margin-top: 120px;
   }
   .footer__top-arrow {
     width: 50px;
@@ -1846,16 +1847,16 @@ body {
     flex-direction: column;
   }
   .footer__row-2 a:first-child {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .footer__row-2 {
     margin-top: 30px;
   }
   .footer__row-2 img {
-    width: 160px;
+    width: 140px;
   }
   .footer__row-3 {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 15px;
   }
   .footer h4 {
