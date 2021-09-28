@@ -2104,5 +2104,57 @@ body {
     margin-top: 10px;
   }
 }
+@media (max-width: 490px) {
+  .services {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .services__item {
+    width: 374px;
+    height: 312px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+  .services__item h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .services__item p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .services__item img {
+    transform: scale(1);
+    margin-top: 60px;
+  }
+}
+@media (max-width: 375px) {
+  .services__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+  }
+  .services__item h4 {
+    margin-top: 20px;
+  }
+  .services__item img {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 340px) {
+  .services__item {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 280px;
+  }
+  .services__item h4 {
+    margin-top: 20px;
+  }
+  .services__item img {
+    margin-top: 35px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
