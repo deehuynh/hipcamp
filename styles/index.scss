@@ -2358,6 +2358,7 @@ body {
 @include media (450px) {
   .hero {
     height: 780px;
+    border-radius: 0 0 80px 80px;
 
     &__content {
       margin-top: 160px;
@@ -2397,6 +2398,8 @@ body {
 
 @include media (375px) {
   .hero {
+    height: 720px;
+    border-radius: 0 0 60px 60px;
 
     &__content {
       margin-top: 130px;
@@ -2474,6 +2477,32 @@ body {
     &__menu-btn {
       img {
         @include block(40px);
+      }
+    }
+  }
+}
+
+@include media (870px) {
+  .services {
+    &__item {
+      @include block(320px, 270px);
+      margin: {
+        left: 10px;
+        right: 10px;
+        bottom: 20px;
+      }
+
+      h4 {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      img {
+        transform: scale(.8);
+        margin-top: 40px;
       }
     }
   }

@@ -1920,6 +1920,7 @@ body {
 @media (max-width: 450px) {
   .hero {
     height: 780px;
+    border-radius: 0 0 80px 80px;
   }
   .hero__content {
     margin-top: 160px;
@@ -1951,6 +1952,10 @@ body {
   }
 }
 @media (max-width: 375px) {
+  .hero {
+    height: 720px;
+    border-radius: 0 0 60px 60px;
+  }
   .hero__content {
     margin-top: 130px;
   }
@@ -2010,6 +2015,25 @@ body {
   .header__menu-btn img {
     width: 40px;
     height: 40px;
+  }
+}
+@media (max-width: 870px) {
+  .services__item {
+    width: 320px;
+    height: 270px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .services__item h4 {
+    font-size: 17px;
+  }
+  .services__item p {
+    font-size: 15px;
+  }
+  .services__item img {
+    transform: scale(0.8);
+    margin-top: 40px;
   }
 }
 
