@@ -3194,7 +3194,12 @@ body {
       margin-left: 10px;
     }
     h1 {
-      font-size: 24px;
+      padding: 0 50px;
+      box-sizing: border-box;
+      font-size: 40px;
+    }
+    &__col-1 {
+      margin-bottom: 20px;
     }
     &__col-2 {
       img {
@@ -3205,6 +3210,52 @@ body {
     &__decoration {
       &-m {
         width: 90%;
+      }
+    }
+  }
+}
+
+@include media (385px) {
+  .subscribe {
+    h1 {
+      padding: 0 40px;
+    }
+  }
+}
+
+@include media (365px) {
+  .subscribe {
+    h1 {
+      padding: 0 30px;
+    }
+
+    &__input-group {
+      input {
+        width: 100%;
+      }
+
+      div {
+        width: auto;
+      }
+    }
+  }
+}
+
+@include media (345px) {
+  .subscribe {
+    h1 {
+      font-size: 36px;
+      padding: 0 20px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    &__input-group {
+      input {
+        font-size: 14px;
       }
     }
   }

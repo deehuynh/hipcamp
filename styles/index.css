@@ -2551,13 +2551,47 @@ body {
     margin-left: 10px;
   }
   .subscribe h1 {
-    font-size: 24px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    font-size: 40px;
+  }
+  .subscribe__col-1 {
+    margin-bottom: 20px;
   }
   .subscribe__col-2 img {
     width: 100%;
   }
   .subscribe__decoration-m {
     width: 90%;
+  }
+}
+@media (max-width: 385px) {
+  .subscribe h1 {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 365px) {
+  .subscribe h1 {
+    padding: 0 30px;
+  }
+  .subscribe__input-group input {
+    width: 100%;
+  }
+  .subscribe__input-group div {
+    width: auto;
+  }
+}
+@media (max-width: 345px) {
+  .subscribe h1 {
+    font-size: 36px;
+    padding: 0 20px;
+  }
+  .subscribe p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .subscribe__input-group input {
+    font-size: 14px;
   }
 }
 
