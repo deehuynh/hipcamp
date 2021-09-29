@@ -2652,10 +2652,10 @@ body {
 }
 @media (max-width: 450px) {
   .footer__col-2 {
-    width: 60% !important;
+    width: 50% !important;
   }
   .footer__col-3 {
-    width: 38% !important;
+    width: 40% !important;
   }
 }
 
