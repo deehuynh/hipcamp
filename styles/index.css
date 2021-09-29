@@ -2202,20 +2202,19 @@ body {
     margin-right: 10px;
   }
   .content__item h4 {
-    margin-top: 35px;
+    margin-top: 30px;
     font-size: 12.5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .content__item p {
-    font-size: 13px;
-    line-height: 22px;
-    margin-bottom: 18px;
+    font-size: 11px;
+    line-height: 18px;
   }
   .content__item-btn {
-    width: 145px;
-    height: 40px;
-    font-size: 13px;
-    line-height: 40px;
+    width: 125px;
+    height: 34px;
+    font-size: 12px;
+    line-height: 34px;
   }
 }
 
