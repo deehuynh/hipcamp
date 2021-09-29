@@ -3074,3 +3074,61 @@ body {
     }
   }
 }
+
+@include media (865px) {
+  .subscribe {
+
+    h1 {
+      font-size: 26px;
+    }
+
+    p {
+      margin-top: 16px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    &__col-1 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    &__mail-i {
+      transform: scale(.9);
+      margin-left: 16px;
+    }
+
+    &__input-group {
+      margin: 30px auto;
+      @include block(500px, 64px);
+      line-height: 64px;
+      
+      input {
+        text-indent: 10px;
+        font-size: 14px;
+      }
+
+      div {
+        span {
+          @include block(43px);
+          border-radius: 15px;
+
+          img {
+            width: 45%;
+          }
+        }
+      }
+    }
+
+    &__decoration {
+      display: none;
+
+      &-m {
+        display: block;
+        width: 40%;
+        height: 100%;
+        max-width: none;
+      }
+    }
+  }
+}
