@@ -2944,33 +2944,34 @@ body {
     }
 
     &__price {
-      @include block(130px, 50px);
+      @include block(145px, 50px);
       line-height: 50px;
       font-size: 16px;
-      bottom: -23px;
-      border-radius: 15px;
+      bottom: -22px;
+      border-radius: 14px;
     }
 
     &__item {
       @include block(373px, 465px);
       padding: 40px;
+      border-radius: 10px;
 
       h4 {
-        margin-top: 35px;
-        font-size: 14px;
-        margin-bottom: 10px;
+        margin-top: 45px;
+        font-size: 18px;
+        margin-bottom: 12px;
       }
 
       p {
-        font-size: 13px;
-        line-height: 22px;
-        margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 24px;
       }
 
-      &-btn {
-        @include block(145px, 40px);
-        font-size: 13px;
-        line-height: 40px;
+      &-btn{
+        @include block(195.69px, 50px);
+        font-size: 18px;
+        line-height: 50px;
       }
     }
   }
