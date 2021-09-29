@@ -2679,7 +2679,6 @@ body {
       margin-top: 25px;
       font-size: 28px;
       line-height: 38px;
-      margin-bottom: 60px;
     }
 
     &__container {
@@ -2688,26 +2687,26 @@ body {
     }
 
     &__like {
-      top: 15px;
-      right: 15px;
+      top: 12px;
+      right: 12px;
 
       img {
-        border-radius: 15px;
-        @include block(32px);
+        border-radius: 12px;
+        @include block(25px);
       }
     }
 
     &__price {
-      @include block(130px, 50px);
-      line-height: 50px;
-      font-size: 16px;
-      bottom: -23px;
-      border-radius: 15px;
+      @include block(100px, 40px);
+      line-height: 40px;
+      font-size: 12px;
+      bottom: -18px;
+      border-radius: 10px;
     }
 
     &__item {
-      width: 270px;
-      padding: 32px;
+      width: 240px;
+      padding: 28px;
       margin: {
         left: 10px;
         right: 10px;
@@ -2715,7 +2714,7 @@ body {
 
       h4 {
         margin-top: 35px;
-        font-size: 14px;
+        font-size: 12.5px;
         margin-bottom: 10px;
       }
 

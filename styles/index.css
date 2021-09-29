@@ -2171,7 +2171,6 @@ body {
     margin-top: 25px;
     font-size: 28px;
     line-height: 38px;
-    margin-bottom: 60px;
   }
   .content__container {
     max-width: 100%;
@@ -2180,31 +2179,31 @@ body {
     justify-content: center;
   }
   .content__like {
-    top: 15px;
-    right: 15px;
+    top: 12px;
+    right: 12px;
   }
   .content__like img {
-    border-radius: 15px;
-    width: 32px;
-    height: 32px;
+    border-radius: 12px;
+    width: 25px;
+    height: 25px;
   }
   .content__price {
-    width: 130px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
-    bottom: -23px;
-    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    bottom: -18px;
+    border-radius: 10px;
   }
   .content__item {
-    width: 270px;
-    padding: 32px;
+    width: 240px;
+    padding: 28px;
     margin-left: 10px;
     margin-right: 10px;
   }
   .content__item h4 {
     margin-top: 35px;
-    font-size: 14px;
+    font-size: 12.5px;
     margin-bottom: 10px;
   }
   .content__item p {
