@@ -2337,22 +2337,7 @@ body {
   .content__item h4 {
     font-size: 11.5px;
   }
-  .content__item-bt1 {
-    width: 125px;
-    height: 32px;
-    font-size: 11px;
-    line-height: 32px;
-  }
-}
-@media (max-width: 480px) {
-  .content__item {
-    width: 220px;
-    padding: 25px;
-  }
-  .content__item h4 {
-    font-size: 11.5px;
-  }
-  .content__item-bt1 {
+  .content__item-btn {
     width: 125px;
     height: 32px;
     font-size: 11px;
