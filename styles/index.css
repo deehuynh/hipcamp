@@ -2134,13 +2134,13 @@ body {
   .services__item {
     margin-left: 20px;
     margin-right: 20px;
-    height: 300px;
+    height: 290px;
   }
   .services__item h4 {
     margin-top: 20px;
   }
   .services__item img {
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 340px) {
@@ -2153,7 +2153,7 @@ body {
     margin-top: 20px;
   }
   .services__item img {
-    margin-top: 35px;
+    margin-top: 45px;
   }
 }
 
