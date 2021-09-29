@@ -3171,12 +3171,35 @@ body {
 
 @include media (480px) {
   .subscribe {
+    margin: {
+      left: 15px;
+      right: 15px;
+    };
+
+    padding: {
+      left: 20px;
+      right: 20px;
+    };
     h1 {
       font-size: 24px;
     }
     &__col-2 {
       img {
         width: 270px;
+      }
+    }
+  }
+}
+
+
+@include media (425px) {
+  .subscribe {
+    h1 {
+      font-size: 24px;
+    }
+    &__col-2 {
+      img {
+        width: 100%;
       }
     }
   }
