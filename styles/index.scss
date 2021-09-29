@@ -3099,7 +3099,6 @@ body {
     }
 
     &__input-group {
-      margin: 30px auto;
       @include block(500px, 64px);
       line-height: 64px;
       
@@ -3110,11 +3109,11 @@ body {
 
       div {
         span {
-          @include block(43px);
-          border-radius: 15px;
+          @include block(39px);
+          border-radius: 13px;
 
           img {
-            width: 45%;
+            width: 40%;
           }
         }
       }
@@ -3130,5 +3129,37 @@ body {
         max-width: none;
       }
     }
+  }
+}
+
+@include media (765px) {
+  .subscribe {
+    &__col-2 {
+      img {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@include media (725px) {
+  .subscribe {
+    p {
+      br {
+        display: none;
+      }
+    }
+    &__input-group {
+      width: 100%;
+    }
+  }
+}
+
+@include media (565px) {
+  .subscribe {
+    margin: {
+      left: 20px;
+      right: 20px;
+    };
   }
 }
