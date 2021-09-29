@@ -2801,8 +2801,7 @@ body {
     }
 
     &__container {
-      @include container(10px);
-      justify-content: center;
+      @include container(5px);
     }
 
     &__like {
@@ -2846,6 +2845,58 @@ body {
         @include block(125px, 34px);
         font-size: 12px;
         line-height: 34px;
+      }
+    }
+  }
+}
+
+@include media (530px) {
+  .content {
+    &__container {
+      @include container(10px);
+    }
+    &__item {
+      margin: {
+        left: 5px;
+        right: 5px;
+      };
+    }
+  }
+}
+
+@include media (520px) {
+  .content {
+    &__item {
+      width: 220px;
+      padding: 25px;
+
+      h4 {
+        font-size: 11.5px;
+      }
+
+      &-bt1 {
+        @include block(125px, 32px);
+        font-size: 11px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+@include media (480px) {
+  .content {
+    &__item {
+      width: 220px;
+      padding: 25px;
+
+      h4 {
+        font-size: 11.5px;
+      }
+
+      &-bt1 {
+        @include block(125px, 32px);
+        font-size: 11px;
+        line-height: 32px;
       }
     }
   }
