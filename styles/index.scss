@@ -3260,3 +3260,24 @@ body {
     }
   }
 }
+
+@include media (800px) {
+  .footer {
+    p {
+      font-size: 16px;
+    }
+    &__col {
+      flex-wrap: wrap;
+
+      span {
+        a {
+          font-size: 16px;
+        }
+      }
+
+      &-1, &-2 {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
