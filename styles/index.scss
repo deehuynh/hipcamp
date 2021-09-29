@@ -3161,5 +3161,23 @@ body {
       left: 20px;
       right: 20px;
     };
+
+    padding: {
+      left: 40px;
+      right: 40px;
+    };
+  }
+}
+
+@include media (480px) {
+  .subscribe {
+    h1 {
+      font-size: 24px;
+    }
+    &__col-2 {
+      img {
+        width: 270px;
+      }
+    }
   }
 }
