@@ -2344,5 +2344,51 @@ body {
     line-height: 32px;
   }
 }
+@media (max-width: 480px) {
+  .content__container {
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+  }
+  .content__like {
+    top: 15px;
+    right: 15px;
+  }
+  .content__like img {
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .content__price {
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    bottom: -23px;
+    border-radius: 15px;
+  }
+  .content__item {
+    width: 373px;
+    height: 465px;
+    padding: 40px;
+  }
+  .content__item h4 {
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .content__item p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+  .content__item-btn {
+    width: 145px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 40px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
