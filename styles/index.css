@@ -2156,5 +2156,68 @@ body {
     margin-top: 45px;
   }
 }
+@media (max-width: 890px) {
+  .content__icon {
+    width: 65px;
+    height: auto;
+  }
+  .content__btn {
+    width: 180px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+  }
+  .content h1 {
+    margin-top: 25px;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 60px;
+  }
+  .content__container {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+  }
+  .content__like {
+    top: 15px;
+    right: 15px;
+  }
+  .content__like img {
+    border-radius: 15px;
+    width: 32px;
+    height: 32px;
+  }
+  .content__price {
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    bottom: -23px;
+    border-radius: 15px;
+  }
+  .content__item {
+    width: 270px;
+    padding: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .content__item h4 {
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .content__item p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 18px;
+  }
+  .content__item-btn {
+    width: 145px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 40px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
