@@ -3263,8 +3263,16 @@ body {
 
 @include media (800px) {
   .footer {
+    border-radius: 90px 90px 0 0;
     p {
       font-size: 16px;
+    }
+    &__row-2 {
+      margin-top: 40px;
+
+      h4 {
+        margin-bottom: 30px;
+      }
     }
     &__col {
       flex-wrap: wrap;
@@ -3276,7 +3284,7 @@ body {
       }
 
       &-1, &-2 {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
       }
     }
   }
