@@ -2658,5 +2658,30 @@ body {
     width: 40% !important;
   }
 }
+@media (max-width: 385px) {
+  .footer__col-3 {
+    width: 48% !important;
+  }
+}
+@media (max-width: 345px) {
+  .footer h4 {
+    font-size: 16px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  .footer__row-2 h4 {
+    margin-bottom: 20px;
+  }
+  .footer__row-2 img {
+    width: 120px;
+  }
+  .footer__row-3 {
+    font-size: 14px;
+  }
+  .footer__col span a {
+    font-size: 14px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
