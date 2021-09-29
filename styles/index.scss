@@ -3118,17 +3118,6 @@ body {
         }
       }
     }
-
-    &__decoration {
-      display: none;
-
-      &-m {
-        display: block;
-        width: 40%;
-        height: 100%;
-        max-width: none;
-      }
-    }
   }
 }
 
@@ -3166,6 +3155,12 @@ body {
       left: 40px;
       right: 40px;
     };
+
+    &__decoration {
+      &-m {
+        width: 70%;
+      }
+    }
   }
 }
 
@@ -3194,12 +3189,22 @@ body {
 
 @include media (425px) {
   .subscribe {
+    &__mail-i {
+      transform: scale(.9);
+      margin-left: 10px;
+    }
     h1 {
       font-size: 24px;
     }
     &__col-2 {
       img {
         width: 100%;
+      }
+    }
+
+    &__decoration {
+      &-m {
+        width: 90%;
       }
     }
   }

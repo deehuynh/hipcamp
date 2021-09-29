@@ -2506,15 +2506,6 @@ body {
   .subscribe__input-group div span img {
     width: 40%;
   }
-  .subscribe__decoration {
-    display: none;
-  }
-  .subscribe__decoration-m {
-    display: block;
-    width: 40%;
-    height: 100%;
-    max-width: none;
-  }
 }
 @media (max-width: 765px) {
   .subscribe__col-2 img {
@@ -2536,6 +2527,9 @@ body {
     padding-left: 40px;
     padding-right: 40px;
   }
+  .subscribe__decoration-m {
+    width: 70%;
+  }
 }
 @media (max-width: 480px) {
   .subscribe {
@@ -2552,11 +2546,18 @@ body {
   }
 }
 @media (max-width: 425px) {
+  .subscribe__mail-i {
+    transform: scale(0.9);
+    margin-left: 10px;
+  }
   .subscribe h1 {
     font-size: 24px;
   }
   .subscribe__col-2 img {
     width: 100%;
+  }
+  .subscribe__decoration-m {
+    width: 90%;
   }
 }
 
