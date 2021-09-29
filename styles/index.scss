@@ -3312,3 +3312,46 @@ body {
     }
   }
 }
+
+@include media (525px) {
+  .footer {
+    &__container {
+      margin: {
+        left: 20px;
+        right: 20px;
+      };
+    }
+  }
+}
+
+@include media (500px) {
+  .footer {
+    &__container {
+      margin: {
+        left: 15px;
+        right: 15px;
+      };
+    }
+    &__col {
+      &-2 {
+        width: 60%!important;
+      }
+      &-3 {
+        width: 35%!important;
+      }
+    }
+  }
+}
+
+@include media (450px) {
+  .footer {
+    &__col {
+      &-2 {
+        width: 60%!important;
+      }
+      &-3 {
+        width: 38%!important;
+      }
+    }
+  }
+}
