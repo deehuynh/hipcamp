@@ -3289,3 +3289,26 @@ body {
     }
   }
 }
+
+@include media (650px) {
+  .footer {
+    &__container {
+      margin: {
+        left: 50px;
+        right: 50px;
+      };
+    }
+  }
+}
+
+@include media (570px) {
+  .footer {
+    border-radius: 60px 60px 0 0;
+    &__container {
+      margin: {
+        left: 30px;
+        right: 30px;
+      };
+    }
+  }
+}
