@@ -2976,3 +2976,101 @@ body {
     }
   }
 }
+
+@include media (375px) {
+  .content {
+    h1 {
+      font-size: 25px;
+      line-height: 30px;
+    }
+
+    &__like {
+      top: 13px;
+      right: 13px;
+
+      img {
+        border-radius: 15px;
+        @include block(36px);
+      }
+    }
+
+    &__item {
+      height: 450px;
+      padding: 35px;
+    }
+  }
+}
+
+@include media (355px) {
+  .content {
+    &__icon {
+      width: 55px;
+    }
+
+    h1 {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    &__item {
+      height: 420px;
+      padding: 35px;
+
+      h4 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 25px;
+      }
+
+      &-btn{
+        @include block(170px, 44px);
+        font-size: 16px;
+        line-height: 44px;
+      }
+    }
+  }
+}
+
+@include media (335px) {
+  .content {
+    &__price {
+      @include block(140px, 50px);
+      line-height: 50px;
+      font-size: 15px;
+      bottom: -22px;
+      border-radius: 14px;
+    }
+    &__like {
+      top: 12px;
+      right: 12px;
+
+      img {
+        border-radius: 13px;
+        @include block(34px);
+      }
+    }
+    &__item {
+      height: 395px;
+      padding: 30px;
+      h4 {
+        margin-top: 40px;
+      }
+      p {
+        margin-bottom: 18px;
+      }
+    }
+  }
+}
+
+@include media (320px) {
+  .content {
+    &__item {
+      height: 388px;
+    }
+  }
+}
