@@ -4,7 +4,7 @@ This is a project that I practise my front-end skills
 
 ## Status
 
-The project is processing
+The project is finished
 
 ## Skills
 
