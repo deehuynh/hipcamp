@@ -2731,3 +2731,122 @@ body {
     }
   }
 }
+
+@include media (800px) {
+  .content {
+
+    &__like {
+      top: 15px;
+      right: 15px;
+
+      img {
+        border-radius: 15px;
+        @include block(32px);
+      }
+    }
+
+    &__price {
+      @include block(130px, 50px);
+      line-height: 50px;
+      font-size: 16px;
+      bottom: -23px;
+      border-radius: 15px;
+    }
+
+    &__item {
+      width: 270px;
+      padding: 32px;
+      margin: {
+        left: 10px;
+        right: 10px;
+      };
+
+      h4 {
+        margin-top: 35px;
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 18px;
+      }
+
+      &-btn {
+        @include block(145px, 40px);
+        font-size: 13px;
+        line-height: 40px;
+      }
+    }
+  }
+}
+
+@include media (600px) {
+  .content {
+    &__icon {
+      @include block(60px,auto);
+    }
+
+    &__btn {
+      @include block(170px, 40px);
+      line-height: 40px;
+      font-size: 16px;
+    }
+
+    h1 {
+      margin-top: 25px;
+      font-size: 26px;
+      line-height: 36px;
+    }
+
+    &__container {
+      @include container(10px);
+      justify-content: center;
+    }
+
+    &__like {
+      top: 12px;
+      right: 12px;
+
+      img {
+        border-radius: 12px;
+        @include block(25px);
+      }
+    }
+
+    &__price {
+      @include block(100px, 40px);
+      line-height: 40px;
+      font-size: 12px;
+      bottom: -18px;
+      border-radius: 10px;
+    }
+
+    &__item {
+      width: 240px;
+      padding: 28px;
+      margin: {
+        left: 10px;
+        right: 10px;
+      };
+
+      h4 {
+        margin-top: 30px;
+        font-size: 12.5px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-size: 11px;
+        line-height: 18px;
+      }
+
+      &-btn {
+        @include block(125px, 34px);
+        font-size: 12px;
+        line-height: 34px;
+      }
+    }
+  }
+}
