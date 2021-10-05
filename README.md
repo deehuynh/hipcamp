@@ -15,7 +15,7 @@ The project is finished
 
 The adobe xd file taken from: [https://www.behance.net/gallery/99658357/Camping-Website-Design](https://www.behance.net/gallery/99658357/Camping-Website-Design)
 
-![img](https://i.imgur.com/LmmRHdd.png)
+![img](https://i.imgur.com/ujfm4cF.png)
 
 ## Live website
 
